@@ -121,29 +121,7 @@
       <name dataType="String">Player</name>
       <parent />
       <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="4004742234">
-        <changes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1187051208">
-          <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="1424227948" length="4">
-            <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-              <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="1268210088">
-                <_items dataType="Array" type="System.Int32[]" id="1280831148"></_items>
-                <_size dataType="Int">0</_size>
-              </childIndex>
-              <componentType dataType="ObjectRef">979354332</componentType>
-              <prop dataType="MemberInfo" id="2798149534" value="P:Duality_.DebugPlayerSprite:Width" />
-              <val dataType="Float">75</val>
-            </item>
-            <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-              <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="2453152660">
-                <_items dataType="ObjectRef">1280831148</_items>
-                <_size dataType="Int">0</_size>
-              </childIndex>
-              <componentType dataType="ObjectRef">979354332</componentType>
-              <prop dataType="MemberInfo" id="3925229090" value="P:Duality_.DebugPlayerSprite:Height" />
-              <val dataType="Float">75</val>
-            </item>
-          </_items>
-          <_size dataType="Int">2</_size>
-        </changes>
+        <changes />
         <obj dataType="ObjectRef">2871832268</obj>
         <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
           <contentPath dataType="String">Data\Diagnostics\Player.Prefab.res</contentPath>
@@ -181,9 +159,9 @@
               <G dataType="Byte">130</G>
               <R dataType="Byte">185</R>
             </_x003C_Colour_x003E_k__BackingField>
-            <_x003C_Height_x003E_k__BackingField dataType="Float">975</_x003C_Height_x003E_k__BackingField>
+            <_x003C_Height_x003E_k__BackingField dataType="Float">475</_x003C_Height_x003E_k__BackingField>
             <_x003C_OffSet_x003E_k__BackingField dataType="Float">0.1</_x003C_OffSet_x003E_k__BackingField>
-            <_x003C_Width_x003E_k__BackingField dataType="Float">1800</_x003C_Width_x003E_k__BackingField>
+            <_x003C_Width_x003E_k__BackingField dataType="Float">475</_x003C_Width_x003E_k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">146863855</gameobj>
             <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
