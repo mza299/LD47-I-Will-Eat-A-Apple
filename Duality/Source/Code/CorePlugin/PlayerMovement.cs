@@ -21,29 +21,13 @@ namespace Duality_
         void ICmpInitializable.OnActivate()
         {
             rb = GameObj.GetComponent<RigidBody>();
-            DualityApp.Keyboard.KeyDown += Movement;
-            DualityApp.Keyboard.KeyUp += StopMovement;
+            DualityApp.Keyboard.KeyDown += ExitPlan;
         }
 
-        private void StopMovement(object sender, KeyboardKeyEventArgs e)
+        private void ExitPlan(object sender, KeyboardKeyEventArgs e)
         {
-            /*if (e.Key == Key.Right || e.Key == Key.D || e.Key == Key.Left || e.Key == Key.A || e.Key == Key.Up || e.Key == Key.W || e.Key == Key.Down || e.Key == Key.S)
-                rb.LinearVelocity = Vector2.Zero;*/
-        }
-
-        private void Movement(object sender, KeyboardKeyEventArgs e)
-        {
-            if (e.Key == Key.Right || e.Key == Key.D)
-                rb.LinearVelocity = Vector2.UnitX * Speed;
-
-            if (e.Key == Key.Left || e.Key == Key.A)
-                rb.LinearVelocity = -Vector2.UnitX * Speed;
-
-            if (e.Key == Key.Up || e.Key == Key.W)
-                rb.LinearVelocity = -Vector2.UnitY * Speed;
-
-            if (e.Key == Key.Down || e.Key == Key.S)
-                rb.LinearVelocity = Vector2.UnitY * Speed;
+            if (e.Key == Key.Escape)
+                DualityApp.Terminate();
         }
 
         void Move()
@@ -64,8 +48,7 @@ namespace Duality_
 
         void ICmpInitializable.OnDeactivate()
         {
-            DualityApp.Keyboard.KeyDown -= Movement;
-            DualityApp.Keyboard.KeyUp -= StopMovement;
+            DualityApp.Keyboard.KeyDown -= ExitPlan;
         }
 
         void ICmpUpdatable.OnUpdate()

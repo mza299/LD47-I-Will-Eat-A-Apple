@@ -232,3 +232,79 @@
 [Core] Msg: Loading Resource 'Data\Sprites\Player_Idle2.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
 [Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Land.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Land.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Invert'...
+[Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Add'...
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Sprites\LandStatic.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\LandStatic.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Player_Idle3.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Player_Idle3.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Tree.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Tree.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\LadderTilesHorz.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\LadderTilesHorz.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\LadderTilesVert.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\LadderTilesVert.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\LadderTile.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\LadderTile.Pixmap.res'
+[Core] Msg: Assembly loaded: Windows7.DesktopIntegration 1.0.0.0
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] Msg:   Assembly loaded: VistaBridgeLibrary 1.4.0.0
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] Msg:   Assembly loaded: PresentationCore 4.0.0.0
+[Core] Msg:   Assembly loaded: PresentationFramework 4.0.0.0
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] Msg:   Assembly loaded: UIAutomationProvider 4.0.0.0
+[Core] Msg:   Assembly loaded: UIAutomationTypes 4.0.0.0
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Waves.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Waves.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Edit] Msg: Saving user data...
+[Core] Msg: Shutting down GLControl (OpenTK)...
+[Core] Msg: Shutting down OpenGL 2.1 (OpenTK)...
+[Core] Msg: Shutting down OpenAL (OpenTK)...
+[Core] Msg: Shutting down .Net Framework...
+[Core] Msg: DualityApp terminated

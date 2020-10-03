@@ -1027,14 +1027,14 @@
                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                     <contentPath dataType="String">Data\Sprites\Waves.Material.res</contentPath>
                   </sharedMat>
-                  <spriteIndex dataType="Int">3</spriteIndex>
+                  <spriteIndex dataType="Int">16</spriteIndex>
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality.Components.Renderers.SpriteAnimator" id="1921914049">
                   <active dataType="Bool">true</active>
                   <animDuration dataType="Float">1</animDuration>
                   <animLoopMode dataType="Enum" type="Duality.Components.Renderers.SpriteAnimator+LoopMode" name="Loop" value="1" />
-                  <animTime dataType="Float">0.1</animTime>
+                  <animTime dataType="Float">0</animTime>
                   <customFrameSequence />
                   <firstFrame dataType="Int">0</firstFrame>
                   <frameCount dataType="Int">38</frameCount>
@@ -1118,14 +1118,14 @@
                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                     <contentPath dataType="String">Data\Sprites\Waves.Material.res</contentPath>
                   </sharedMat>
-                  <spriteIndex dataType="Int">7</spriteIndex>
+                  <spriteIndex dataType="Int">14</spriteIndex>
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality.Components.Renderers.SpriteAnimator" id="521081276">
                   <active dataType="Bool">true</active>
                   <animDuration dataType="Float">1</animDuration>
                   <animLoopMode dataType="Enum" type="Duality.Components.Renderers.SpriteAnimator+LoopMode" name="Loop" value="1" />
-                  <animTime dataType="Float">0.2</animTime>
+                  <animTime dataType="Float">0</animTime>
                   <customFrameSequence />
                   <firstFrame dataType="Int">0</firstFrame>
                   <frameCount dataType="Int">38</frameCount>
@@ -1209,14 +1209,14 @@
                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                     <contentPath dataType="String">Data\Sprites\Waves.Material.res</contentPath>
                   </sharedMat>
-                  <spriteIndex dataType="Int">11</spriteIndex>
+                  <spriteIndex dataType="Int">12</spriteIndex>
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality.Components.Renderers.SpriteAnimator" id="1002948518">
                   <active dataType="Bool">true</active>
                   <animDuration dataType="Float">1</animDuration>
                   <animLoopMode dataType="Enum" type="Duality.Components.Renderers.SpriteAnimator+LoopMode" name="Loop" value="1" />
-                  <animTime dataType="Float">0.3</animTime>
+                  <animTime dataType="Float">0</animTime>
                   <customFrameSequence />
                   <firstFrame dataType="Int">0</firstFrame>
                   <frameCount dataType="Int">38</frameCount>
@@ -1300,7 +1300,7 @@
                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                     <contentPath dataType="String">Data\Sprites\Waves.Material.res</contentPath>
                   </sharedMat>
-                  <spriteIndex dataType="Int">0</spriteIndex>
+                  <spriteIndex dataType="Int">10</spriteIndex>
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality.Components.Renderers.SpriteAnimator" id="2404775580">
@@ -1391,7 +1391,7 @@
                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                     <contentPath dataType="String">Data\Sprites\Waves.Material.res</contentPath>
                   </sharedMat>
-                  <spriteIndex dataType="Int">0</spriteIndex>
+                  <spriteIndex dataType="Int">8</spriteIndex>
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality.Components.Renderers.SpriteAnimator" id="492699932">
@@ -1482,14 +1482,14 @@
                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                     <contentPath dataType="String">Data\Sprites\Waves.Material.res</contentPath>
                   </sharedMat>
-                  <spriteIndex dataType="Int">22</spriteIndex>
+                  <spriteIndex dataType="Int">6</spriteIndex>
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality.Components.Renderers.SpriteAnimator" id="1977878148">
                   <active dataType="Bool">true</active>
                   <animDuration dataType="Float">1</animDuration>
                   <animLoopMode dataType="Enum" type="Duality.Components.Renderers.SpriteAnimator+LoopMode" name="Loop" value="1" />
-                  <animTime dataType="Float">0.6</animTime>
+                  <animTime dataType="Float">0</animTime>
                   <customFrameSequence />
                   <firstFrame dataType="Int">0</firstFrame>
                   <frameCount dataType="Int">38</frameCount>
@@ -1573,14 +1573,14 @@
                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                     <contentPath dataType="String">Data\Sprites\Waves.Material.res</contentPath>
                   </sharedMat>
-                  <spriteIndex dataType="Int">26</spriteIndex>
+                  <spriteIndex dataType="Int">4</spriteIndex>
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality.Components.Renderers.SpriteAnimator" id="4267889690">
                   <active dataType="Bool">true</active>
                   <animDuration dataType="Float">1</animDuration>
                   <animLoopMode dataType="Enum" type="Duality.Components.Renderers.SpriteAnimator+LoopMode" name="Loop" value="1" />
-                  <animTime dataType="Float">0.7</animTime>
+                  <animTime dataType="Float">0</animTime>
                   <customFrameSequence />
                   <firstFrame dataType="Int">0</firstFrame>
                   <frameCount dataType="Int">38</frameCount>
@@ -1664,14 +1664,14 @@
                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                     <contentPath dataType="String">Data\Sprites\Waves.Material.res</contentPath>
                   </sharedMat>
-                  <spriteIndex dataType="Int">30</spriteIndex>
+                  <spriteIndex dataType="Int">2</spriteIndex>
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality.Components.Renderers.SpriteAnimator" id="3220121030">
                   <active dataType="Bool">true</active>
                   <animDuration dataType="Float">1</animDuration>
                   <animLoopMode dataType="Enum" type="Duality.Components.Renderers.SpriteAnimator+LoopMode" name="Loop" value="1" />
-                  <animTime dataType="Float">0.8</animTime>
+                  <animTime dataType="Float">0</animTime>
                   <customFrameSequence />
                   <firstFrame dataType="Int">0</firstFrame>
                   <frameCount dataType="Int">38</frameCount>

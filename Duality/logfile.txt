@@ -138,7 +138,6 @@
 [Core] Msg:   ...done!
 [Core] Msg: Assembly loaded: DualityPhysics 3.0.4.0
 [Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
 [Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
 [Core] Msg:     Assembly loaded: System.Security 4.0.0.0
 [Core] Msg:     Assembly loaded: System.Configuration 4.0.0.0
@@ -149,6 +148,12 @@
 [Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
 [Core] Msg: Determining OpenGL rendering capabilities...
 [Core] Msg:   Requested 16 MSAA samples, but got 2 samples instead.
+[Core] Msg: Loading Resource 'Data\Sprites\LadderTile.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\LadderTile.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\LadderTile.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\LadderTilesVert.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\LadderTilesVert.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\LadderTilesVert.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites\Player_Idle3.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\Player_Idle3.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\Player_Idle3.Pixmap.res'
@@ -158,6 +163,12 @@
 [Core] Msg: Loading Resource 'Data\Sprites\Tree.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\Tree.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\Tree.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\LadderTilesHorz.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\LadderTilesHorz.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\LadderTilesHorz.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Waves.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\Waves.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\Waves.Pixmap.res'
 [Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Mask'...
 [Core] Msg:   Compiling Vertex shader 'Default\VertexShader\Minimal'...
 [Core] Msg:   Compiling Fragment shader 'Default\FragmentShader\Minimal'...
