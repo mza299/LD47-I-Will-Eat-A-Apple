@@ -149,9 +149,15 @@
 [Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
 [Core] Msg: Determining OpenGL rendering capabilities...
 [Core] Msg:   Requested 16 MSAA samples, but got 2 samples instead.
-[Core] Msg: Loading Resource 'Data\Sprites\Player_Idle.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\Player_Idle.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\Player_Idle.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Player_Idle3.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\Player_Idle3.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\Player_Idle3.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\LandStatic.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\LandStatic.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\LandStatic.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Tree.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\Tree.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\Tree.Pixmap.res'
 [Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Mask'...
 [Core] Msg:   Compiling Vertex shader 'Default\VertexShader\Minimal'...
 [Core] Msg:   Compiling Fragment shader 'Default\FragmentShader\Minimal'...
