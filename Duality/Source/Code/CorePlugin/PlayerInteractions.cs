@@ -21,6 +21,11 @@ namespace Duality_
                 GameManager.EnteredMainArea = true;
                 Game.Write("You have entered main area");
             }
+
+            if (args.CollideWith.ContainsTag() && args.CollideWith.HasID(Tag.ID.APPLE))
+            {
+                Game.Write("Your a WINNER :P");
+            }
         }
 
         void ICmpCollisionListener.OnCollisionEnd(Component sender, CollisionEventArgs args)

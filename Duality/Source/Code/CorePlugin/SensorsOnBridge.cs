@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Duality;
 using Duality.Components;
 using Duality.Components.Physics;
+using Duality.Components.Renderers;
 
 using static Duality.Logs;
 
@@ -26,6 +27,8 @@ namespace Duality_
         public enum SelfPOS {R, L, U, D };
 
         public SelfPOS Pos { get; set; }
+
+        public int MaxSensorCount { get; set; }
 
         void ICmpInitializable.OnActivate()
         {
@@ -57,11 +60,17 @@ namespace Duality_
             {
                 var player = args.CollideWith;
                 if (Pos == SelfPOS.R || Pos == SelfPOS.L)
+                {
                     player.Transform.MoveTo(new Vector3(TransportPos.X, player.Transform.Pos.Y, 0));
+                    GameManager.PlayerPosition = new Vector3(TransportPos.X, player.Transform.Pos.Y, 0);
+                }
 
                 if (Pos == SelfPOS.D || Pos == SelfPOS.U)
+                {
                     player.Transform.MoveTo(new Vector3(player.Transform.Pos.X, TransportPos.Y, 0));
-
+                    GameManager.PlayerPosition = new Vector3(player.Transform.Pos.X, TransportPos.Y, 0);
+                }
+                GameManager.PlayerStance = player.GetComponent<SpriteRenderer>().SharedMaterial;
                 IncreaseCount();
             }
         }
@@ -71,6 +80,11 @@ namespace Duality_
             if (GameManager.EnteredMainArea)
             {
                 GameManager.DisObeyCount += 1;
+                if (GameManager.DisObeyCount >= MaxSensorCount)
+                {
+                    Game.Write("Going to next level and you will be spawned at " + GameManager.PlayerPosition.ToString());
+                    GameManager.GoToNextScene();
+                }
                 Game.Write("Count is now " + GameManager.DisObeyCount.ToString());
             }
         }

@@ -16,3 +16,4 @@ E:\Project work\LDs\47\LD47---Pick-Up-The-Strawberry\Duality\Source\Code\CorePlu
 E:\Project work\LDs\47\LD47---Pick-Up-The-Strawberry\Duality\Source\Code\CorePlugin\obj\Debug\CorePlugin.csproj.CopyComplete
 E:\Project work\LDs\47\LD47---Pick-Up-The-Strawberry\Duality\Source\Code\CorePlugin\obj\Debug\GamePlugin.core.dll
 E:\Project work\LDs\47\LD47---Pick-Up-The-Strawberry\Duality\Source\Code\CorePlugin\obj\Debug\GamePlugin.core.pdb
+E:\Project work\LDs\47\LD47---Pick-Up-The-Strawberry\Duality\Source\Code\CorePlugin\obj\Debug\CorePlugin.csprojAssemblyReference.cache

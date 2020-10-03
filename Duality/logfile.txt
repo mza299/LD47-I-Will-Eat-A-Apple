@@ -148,8 +148,10 @@
 [Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
 [Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
 [Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
 [Core] Msg: Determining OpenGL rendering capabilities...
 [Core] Msg:   Requested 16 MSAA samples, but got 2 samples instead.
+[Game] Msg: You have entered main area
 [Core] Msg: Loading Resource 'Data\Sprites\LadderTilesHorzLR.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\LadderTilesHorzLR.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\LadderTilesHorzLR.Pixmap.res'
@@ -172,15 +174,24 @@
 [Core] Msg:   Compiling Vertex shader 'Default\VertexShader\Minimal'...
 [Core] Msg:   Compiling Fragment shader 'Default\FragmentShader\Minimal'...
 [Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Add'...
-[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalk.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalk.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalk.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkDown.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkDown.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkDown.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalk.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalk.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalk.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkUp.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkUp.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkUp.Pixmap.res'
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (-2289.327, -1.105972, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\Scene 0.Scene.res'
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
 [Core] Msg: Shutting down OpenGL 2.1 (OpenTK)...
 [Core] Msg: Shutting down OpenAL (OpenTK)...
 [Core] Msg: Shutting down .Net Framework...

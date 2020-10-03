@@ -54,6 +54,7 @@
     <Compile Include="PlayerInteractions.cs" />
     <Compile Include="PlayerMovement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SceneHolder.cs" />
     <Compile Include="SensorsOnBridge.cs" />
     <Compile Include="Tag.cs" />
     <Compile Include="Tag_Extension.cs" />

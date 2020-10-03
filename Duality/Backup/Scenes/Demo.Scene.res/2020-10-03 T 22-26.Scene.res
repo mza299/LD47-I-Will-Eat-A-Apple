@@ -3312,7 +3312,7 @@
             <useCCD dataType="Bool">false</useCCD>
           </item>
           <item dataType="Struct" type="Duality.Components.Renderers.RigidBodyRenderer" id="3163685736">
-            <active dataType="Bool">false</active>
+            <active dataType="Bool">true</active>
             <areaMaterial dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
               <contentPath dataType="String">Default:Material:Checkerboard</contentPath>
             </areaMaterial>

@@ -23,6 +23,10 @@ namespace Duality_
 
         public static bool EnteredMainArea;
 
+        public static Vector3 PlayerPosition;
+
+        public static ContentRef<Material> PlayerStance;
+
         public static void SetGameState (GAMESTATE s)
         {
             State = s;
@@ -35,6 +39,17 @@ namespace Duality_
                 return true;
             else
                 return false;
+        }
+
+        public static void GoToNextScene ()
+        {
+            var currentScene = Scene.Current;
+            var nextScene = currentScene.FindComponent<SceneHolder>().NextScene;
+            if (nextScene != null)
+            {
+                Scene.SwitchTo(nextScene);
+                currentScene.Dispose();
+            }
         }
     }
 }

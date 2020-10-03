@@ -19,6 +19,7 @@ namespace Duality_
             base.InitPlugin();
             GameManager.SetGameState(GameManager.GAMESTATE.RUNNING);
             GameManager.DisObeyCount = 0;
+            GameManager.PlayerPosition = new Vector3(-110, 175, 0);
         }
     }
 }

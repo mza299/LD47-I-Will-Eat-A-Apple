@@ -35,6 +35,9 @@ namespace Duality_
         {
             rend = GameObj.GetComponent<SpriteRenderer>();
             anim = GameObj.GetComponent<SpriteAnimator>();
+
+            if (GameManager.PlayerStance != null)
+                rend.SharedMaterial = GameManager.PlayerStance;
         }
 
         void ICmpInitializable.OnDeactivate()
