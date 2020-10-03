@@ -53,8 +53,11 @@ namespace Duality_
 
         void ICmpUpdatable.OnUpdate()
         {
-            Move();
-            Stop();
+            if (GameManager.State == GameManager.GAMESTATE.RUNNING)
+            {
+                Move();
+                Stop();
+            }
         }
 
         void Stop()

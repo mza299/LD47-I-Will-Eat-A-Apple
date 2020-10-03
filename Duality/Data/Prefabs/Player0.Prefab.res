@@ -136,7 +136,7 @@
           </rect>
           <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
           <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-            <contentPath dataType="String">Data\Sprites\Player_Idle3.Material.res</contentPath>
+            <contentPath dataType="String">Data\Sprites\PlayerLR.Material.res</contentPath>
           </sharedMat>
           <spriteIndex dataType="Int">0</spriteIndex>
           <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
@@ -217,17 +217,17 @@
         </item>
         <item dataType="Struct" type="Duality.Components.Renderers.SpriteAnimator" id="903100757">
           <active dataType="Bool">true</active>
-          <animDuration dataType="Float">5</animDuration>
+          <animDuration dataType="Float">1</animDuration>
           <animLoopMode dataType="Enum" type="Duality.Components.Renderers.SpriteAnimator+LoopMode" name="Loop" value="1" />
           <animTime dataType="Float">0</animTime>
           <customFrameSequence />
           <firstFrame dataType="Int">0</firstFrame>
-          <frameCount dataType="Int">58</frameCount>
+          <frameCount dataType="Int">2</frameCount>
           <gameobj dataType="ObjectRef">1162904217</gameobj>
           <paused dataType="Bool">false</paused>
         </item>
         <item dataType="Struct" type="Duality_.PlayerMovement" id="1833299968">
-          <_x003C_Speed_x003E_k__BackingField dataType="Float">3</_x003C_Speed_x003E_k__BackingField>
+          <_x003C_Speed_x003E_k__BackingField dataType="Float">5</_x003C_Speed_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">1162904217</gameobj>
         </item>

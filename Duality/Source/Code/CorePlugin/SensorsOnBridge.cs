@@ -8,6 +8,8 @@ using Duality;
 using Duality.Components;
 using Duality.Components.Physics;
 
+using static Duality.Logs;
+
 namespace Duality_
 {
     [RequiredComponent(typeof(RigidBody))]
@@ -59,12 +61,24 @@ namespace Duality_
 
                 if (Pos == SelfPOS.D || Pos == SelfPOS.U)
                     player.Transform.MoveTo(new Vector3(player.Transform.Pos.X, TransportPos.Y, 0));
+
+                IncreaseCount();
+            }
+        }
+
+        void IncreaseCount()
+        {
+            if (GameManager.EnteredMainArea)
+            {
+                GameManager.DisObeyCount += 1;
+                Game.Write("Count is now " + GameManager.DisObeyCount.ToString());
             }
         }
 
         void ICmpCollisionListener.OnCollisionEnd(Component sender, CollisionEventArgs args)
         {
-            
+            if (args.CollideWith.ContainsTag() && args.CollideWith.HasID(Tag.ID.PLAYER))
+                GameManager.EnteredMainArea = false;
         }
 
         void ICmpCollisionListener.OnCollisionSolve(Component sender, CollisionEventArgs args)

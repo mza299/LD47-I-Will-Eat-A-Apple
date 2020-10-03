@@ -12,6 +12,13 @@ namespace Duality_
 	/// </summary>
 	public class Duality_CorePlugin : CorePlugin
 	{
-		// Override methods here for global logic
-	}
+        // Override methods here for global logic
+
+        protected override void InitPlugin()
+        {
+            base.InitPlugin();
+            GameManager.SetGameState(GameManager.GAMESTATE.RUNNING);
+            GameManager.DisObeyCount = 0;
+        }
+    }
 }

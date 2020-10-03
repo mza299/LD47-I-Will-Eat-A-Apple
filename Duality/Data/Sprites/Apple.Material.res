@@ -4,7 +4,7 @@
     <parameters dataType="Struct" type="Duality.Drawing.ShaderParameterCollection" id="1100841590" custom="true">
       <body>
         <mainTex dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
-          <contentPath dataType="String">Data\Sprites\Player_Idle3.Texture.res</contentPath>
+          <contentPath dataType="String">Data\Sprites\Apple.Texture.res</contentPath>
         </mainTex>
       </body>
     </parameters>
