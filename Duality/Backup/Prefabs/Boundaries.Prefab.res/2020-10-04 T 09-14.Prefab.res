@@ -8,7 +8,7 @@
     <active dataType="Bool">true</active>
     <children />
     <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3234416926">
-      <_items dataType="Array" type="Duality.Component[]" id="69812368">
+      <_items dataType="Array" type="Duality.Component[]" id="69812368" length="4">
         <item dataType="Struct" type="Duality.Components.Transform" id="1178242047">
           <active dataType="Bool">true</active>
           <angle dataType="Float">0</angle>
@@ -423,86 +423,86 @@
                   <_items dataType="Array" type="Duality.Vector2[][]" id="1634017132" length="8">
                     <item dataType="Array" type="Duality.Vector2[]" id="1997752164">
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-738.809753</X>
-                        <Y dataType="Float">1055.63281</Y>
+                        <X dataType="Float">-741.4614</X>
+                        <Y dataType="Float">1002.60046</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-621.389648</X>
-                        <Y dataType="Float">987.3617</Y>
+                        <X dataType="Float">-618.1681</X>
+                        <Y dataType="Float">894.1518</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">40.08966</X>
-                        <Y dataType="Float">1080.00586</Y>
+                        <X dataType="Float">47.7338867</X>
+                        <Y dataType="Float">1023.6413</Y>
                       </item>
                     </item>
                     <item dataType="Array" type="Duality.Vector2[]" id="3266566678">
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-621.389648</X>
-                        <Y dataType="Float">987.3617</Y>
+                        <X dataType="Float">-618.1681</X>
+                        <Y dataType="Float">894.1518</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">38.2368164</X>
-                        <Y dataType="Float">979.950134</Y>
+                        <X dataType="Float">36.64087</X>
+                        <Y dataType="Float">906.3721</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">40.08966</X>
-                        <Y dataType="Float">1080.00586</Y>
+                        <X dataType="Float">47.7338867</X>
+                        <Y dataType="Float">1023.6413</Y>
                       </item>
                     </item>
                     <item dataType="Array" type="Duality.Vector2[]" id="506760288">
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-738.809753</X>
-                        <Y dataType="Float">1055.63281</Y>
+                        <X dataType="Float">-741.4614</X>
+                        <Y dataType="Float">1002.60046</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-649.182861</X>
-                        <Y dataType="Float">966.979858</Y>
+                        <X dataType="Float">-635.2797</X>
+                        <Y dataType="Float">887.3555</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-621.389648</X>
-                        <Y dataType="Float">987.3617</Y>
+                        <X dataType="Float">-618.1681</X>
+                        <Y dataType="Float">894.1518</Y>
                       </item>
                     </item>
                     <item dataType="Array" type="Duality.Vector2[]" id="3001450338">
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-649.182861</X>
-                        <Y dataType="Float">966.979858</Y>
+                        <X dataType="Float">-635.2797</X>
+                        <Y dataType="Float">887.3555</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-738.809753</X>
-                        <Y dataType="Float">1055.63281</Y>
+                        <X dataType="Float">-741.4614</X>
+                        <Y dataType="Float">1002.60046</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-725.151062</X>
-                        <Y dataType="Float">646.4311</Y>
+                        <X dataType="Float">-725.3096</X>
+                        <Y dataType="Float">658.7946</Y>
                       </item>
                     </item>
                     <item dataType="Array" type="Duality.Vector2[]" id="909526332">
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-649.182861</X>
-                        <Y dataType="Float">966.979858</Y>
+                        <X dataType="Float">-689.160156</X>
+                        <Y dataType="Float">657.5712</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-725.151062</X>
-                        <Y dataType="Float">646.4311</Y>
+                        <X dataType="Float">-635.2797</X>
+                        <Y dataType="Float">887.3555</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-691.799133</X>
-                        <Y dataType="Float">646.4311</Y>
+                        <X dataType="Float">-725.3096</X>
+                        <Y dataType="Float">658.7946</Y>
                       </item>
                     </item>
                     <item dataType="Array" type="Duality.Vector2[]" id="2737783486">
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-649.182861</X>
-                        <Y dataType="Float">966.979858</Y>
+                        <X dataType="Float">-635.2797</X>
+                        <Y dataType="Float">887.3555</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-691.799133</X>
-                        <Y dataType="Float">646.4311</Y>
+                        <X dataType="Float">-689.160156</X>
+                        <Y dataType="Float">657.5712</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">-639.9184</X>
-                        <Y dataType="Float">651.9896</Y>
+                        <X dataType="Float">-635.320068</X>
+                        <Y dataType="Float">665.717</Y>
                       </item>
                     </item>
                   </_items>
@@ -516,36 +516,36 @@
                 <userTag dataType="Int">0</userTag>
                 <vertices dataType="Array" type="Duality.Vector2[]" id="1373232094">
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">-649.182861</X>
-                    <Y dataType="Float">966.9799</Y>
+                    <X dataType="Float">-635.2798</X>
+                    <Y dataType="Float">887.3555</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">-621.389648</X>
-                    <Y dataType="Float">987.361755</Y>
+                    <X dataType="Float">-618.1681</X>
+                    <Y dataType="Float">894.1518</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">38.2368164</X>
-                    <Y dataType="Float">979.950134</Y>
+                    <X dataType="Float">36.64087</X>
+                    <Y dataType="Float">906.372131</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">40.08966</X>
-                    <Y dataType="Float">1080.00586</Y>
+                    <X dataType="Float">47.7338867</X>
+                    <Y dataType="Float">1023.6413</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">-738.8098</X>
-                    <Y dataType="Float">1055.63281</Y>
+                    <X dataType="Float">-741.4614</X>
+                    <Y dataType="Float">1002.60052</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">-725.151062</X>
-                    <Y dataType="Float">646.4311</Y>
+                    <X dataType="Float">-725.3096</X>
+                    <Y dataType="Float">658.7946</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">-691.799133</X>
-                    <Y dataType="Float">646.4311</Y>
+                    <X dataType="Float">-689.160156</X>
+                    <Y dataType="Float">657.5712</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">-639.918457</X>
-                    <Y dataType="Float">651.9897</Y>
+                    <X dataType="Float">-635.320068</X>
+                    <Y dataType="Float">665.717</Y>
                   </item>
                 </vertices>
               </item>
@@ -555,57 +555,57 @@
                     <item dataType="Array" type="Duality.Vector2[]" id="4066290908">
                       <item dataType="Struct" type="Duality.Vector2">
                         <X dataType="Float">951.0991</X>
-                        <Y dataType="Float">1043.18335</Y>
+                        <Y dataType="Float">978.3325</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
                         <X dataType="Float">198.706787</X>
-                        <Y dataType="Float">1042.301</Y>
+                        <Y dataType="Float">977.450256</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">873.887146</X>
-                        <Y dataType="Float">976.244263</Y>
+                        <X dataType="Float">867.2759</X>
+                        <Y dataType="Float">892.1259</Y>
                       </item>
                     </item>
                     <item dataType="Array" type="Duality.Vector2[]" id="298617110">
                       <item dataType="Struct" type="Duality.Vector2">
                         <X dataType="Float">198.706787</X>
-                        <Y dataType="Float">1042.301</Y>
+                        <Y dataType="Float">977.450256</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">206.849167</X>
-                        <Y dataType="Float">974.391541</Y>
+                        <X dataType="Float">205.719727</X>
+                        <Y dataType="Float">900.3077</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">873.887146</X>
-                        <Y dataType="Float">976.244263</Y>
+                        <X dataType="Float">867.2759</X>
+                        <Y dataType="Float">892.1259</Y>
                       </item>
                     </item>
                     <item dataType="Array" type="Duality.Vector2[]" id="4158469704">
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">873.887146</X>
-                        <Y dataType="Float">976.244263</Y>
-                      </item>
-                      <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">944.296631</X>
-                        <Y dataType="Float">672.37146</Y>
-                      </item>
-                      <item dataType="Struct" type="Duality.Vector2">
                         <X dataType="Float">951.0991</X>
-                        <Y dataType="Float">1043.18335</Y>
+                        <Y dataType="Float">978.3325</Y>
+                      </item>
+                      <item dataType="Struct" type="Duality.Vector2">
+                        <X dataType="Float">867.2759</X>
+                        <Y dataType="Float">892.1259</Y>
+                      </item>
+                      <item dataType="Struct" type="Duality.Vector2">
+                        <X dataType="Float">949.5144</X>
+                        <Y dataType="Float">664.5583</Y>
                       </item>
                     </item>
                     <item dataType="Array" type="Duality.Vector2[]" id="2669288882">
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">873.887146</X>
-                        <Y dataType="Float">976.244263</Y>
+                        <X dataType="Float">867.2759</X>
+                        <Y dataType="Float">892.1259</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">872.034241</X>
-                        <Y dataType="Float">672.37146</Y>
+                        <X dataType="Float">873.028564</X>
+                        <Y dataType="Float">666.615845</Y>
                       </item>
                       <item dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">944.296631</X>
-                        <Y dataType="Float">672.37146</Y>
+                        <X dataType="Float">949.5144</X>
+                        <Y dataType="Float">664.5583</Y>
                       </item>
                     </item>
                   </_items>
@@ -619,28 +619,28 @@
                 <userTag dataType="Int">0</userTag>
                 <vertices dataType="Array" type="Duality.Vector2[]" id="1928667290">
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">206.849182</X>
-                    <Y dataType="Float">974.391541</Y>
+                    <X dataType="Float">205.719727</X>
+                    <Y dataType="Float">900.3077</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
                     <X dataType="Float">198.706787</X>
-                    <Y dataType="Float">1042.301</Y>
+                    <Y dataType="Float">977.450256</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
                     <X dataType="Float">951.0991</X>
-                    <Y dataType="Float">1043.18335</Y>
+                    <Y dataType="Float">978.3326</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">944.2967</X>
-                    <Y dataType="Float">672.3715</Y>
+                    <X dataType="Float">949.5144</X>
+                    <Y dataType="Float">664.5583</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">872.034241</X>
-                    <Y dataType="Float">672.3715</Y>
+                    <X dataType="Float">873.028564</X>
+                    <Y dataType="Float">666.6159</Y>
                   </item>
                   <item dataType="Struct" type="Duality.Vector2">
-                    <X dataType="Float">873.887146</X>
-                    <Y dataType="Float">976.2443</Y>
+                    <X dataType="Float">867.2759</X>
+                    <Y dataType="Float">892.1259</Y>
                   </item>
                 </vertices>
               </item>
@@ -1279,13 +1279,8 @@
           <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
           <wrapTexture dataType="Bool">true</wrapTexture>
         </item>
-        <item dataType="Struct" type="Duality_.Tag" id="951489960">
-          <_x003C_iD_x003E_k__BackingField dataType="Enum" type="Duality_.Tag+ID" name="WATER" value="4" />
-          <active dataType="Bool">true</active>
-          <gameobj dataType="ObjectRef">1120964829</gameobj>
-        </item>
       </_items>
-      <_size dataType="Int">4</_size>
+      <_size dataType="Int">3</_size>
     </compList>
     <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2790996618" surrogate="true">
       <header />
@@ -1294,13 +1289,11 @@
           <item dataType="Type" id="657350468" value="Duality.Components.Transform" />
           <item dataType="Type" id="2397679254" value="Duality.Components.Physics.RigidBody" />
           <item dataType="Type" id="3573401344" value="Duality.Components.Renderers.RigidBodyRenderer" />
-          <item dataType="Type" id="3956631586" value="Duality_.Tag" />
         </keys>
         <values dataType="Array" type="System.Object[]" id="745198486">
           <item dataType="ObjectRef">1178242047</item>
           <item dataType="ObjectRef">655894317</item>
           <item dataType="ObjectRef">4174938787</item>
-          <item dataType="ObjectRef">951489960</item>
         </values>
       </body>
     </compMap>

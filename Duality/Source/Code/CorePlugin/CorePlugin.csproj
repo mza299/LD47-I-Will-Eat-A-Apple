@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="CorePlugin.cs" />
     <Compile Include="DebugPlayerSprite.cs" />
+    <Compile Include="DestroyAfterSeconds.cs" />
     <Compile Include="GameManager.cs" />
     <Compile Include="PlayerAnimations.cs" />
     <Compile Include="PlayerInteractions.cs" />

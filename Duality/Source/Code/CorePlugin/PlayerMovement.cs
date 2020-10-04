@@ -22,6 +22,7 @@ namespace Duality_
         {
             rb = GameObj.GetComponent<RigidBody>();
             GameObj.Transform.MoveTo(GameManager.PlayerPosition);
+            GameManager.SetGameState(GameManager.GAMESTATE.RUNNING);
             DualityApp.Keyboard.KeyDown += ExitPlan;
         }
 

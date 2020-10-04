@@ -670,6 +670,18 @@
             <gameobj dataType="ObjectRef">2445799173</gameobj>
           </item>
           <item dataType="Struct" type="Duality_.PlayerAnimations" id="2202407268">
+            <_x003C_Idle_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+              <contentPath dataType="String">Data\Sprites\PlayerLR.Material.res</contentPath>
+            </_x003C_Idle_x003E_k__BackingField>
+            <_x003C_WalkingDown_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+              <contentPath dataType="String">Data\Sprites\PlayerWalkDown.Material.res</contentPath>
+            </_x003C_WalkingDown_x003E_k__BackingField>
+            <_x003C_WalkingH_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+              <contentPath dataType="String">Data\Sprites\PlayerWalk.Material.res</contentPath>
+            </_x003C_WalkingH_x003E_k__BackingField>
+            <_x003C_WalkingUp_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+              <contentPath dataType="String">Data\Sprites\PlayerWalkUp.Material.res</contentPath>
+            </_x003C_WalkingUp_x003E_k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">2445799173</gameobj>
           </item>
@@ -3370,7 +3382,7 @@
       <active dataType="Bool">true</active>
       <children />
       <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3024836766">
-        <_items dataType="Array" type="Duality.Component[]" id="3819862928">
+        <_items dataType="Array" type="Duality.Component[]" id="3819862928" length="4">
           <item dataType="Struct" type="Duality.Components.Transform" id="3928730">
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">4241618808</gameobj>
@@ -3383,12 +3395,8 @@
             <active dataType="Bool">false</active>
             <gameobj dataType="ObjectRef">4241618808</gameobj>
           </item>
-          <item dataType="Struct" type="Duality_.Tag" id="4072143939">
-            <active dataType="Bool">true</active>
-            <gameobj dataType="ObjectRef">4241618808</gameobj>
-          </item>
         </_items>
-        <_size dataType="Int">4</_size>
+        <_size dataType="Int">3</_size>
       </compList>
       <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1217166730" surrogate="true">
         <header />
@@ -3397,13 +3405,11 @@
             <item dataType="ObjectRef">2961958432</item>
             <item dataType="ObjectRef">4278674748</item>
             <item dataType="Type" id="1535708740" value="Duality.Components.Renderers.RigidBodyRenderer" />
-            <item dataType="ObjectRef">2222851544</item>
           </keys>
           <values dataType="Array" type="System.Object[]" id="2660163222">
             <item dataType="ObjectRef">3928730</item>
             <item dataType="ObjectRef">3776548296</item>
             <item dataType="ObjectRef">3000625470</item>
-            <item dataType="ObjectRef">4072143939</item>
           </values>
         </body>
       </compMap>

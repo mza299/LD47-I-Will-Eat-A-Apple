@@ -670,10 +670,25 @@
             <gameobj dataType="ObjectRef">2445799173</gameobj>
           </item>
           <item dataType="Struct" type="Duality_.PlayerAnimations" id="2202407268">
+            <_x003C_Idle_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+              <contentPath dataType="String">Data\Sprites\PlayerLR.Material.res</contentPath>
+            </_x003C_Idle_x003E_k__BackingField>
+            <_x003C_WalkingDown_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+              <contentPath dataType="String">Data\Sprites\PlayerWalkDown.Material.res</contentPath>
+            </_x003C_WalkingDown_x003E_k__BackingField>
+            <_x003C_WalkingH_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+              <contentPath dataType="String">Data\Sprites\PlayerWalk.Material.res</contentPath>
+            </_x003C_WalkingH_x003E_k__BackingField>
+            <_x003C_WalkingUp_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+              <contentPath dataType="String">Data\Sprites\PlayerWalkUp.Material.res</contentPath>
+            </_x003C_WalkingUp_x003E_k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">2445799173</gameobj>
           </item>
           <item dataType="Struct" type="Duality_.PlayerInteractions" id="2175079304">
+            <_x003C_Puddle_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+              <contentPath dataType="String">Data\Prefabs\Puddle.Prefab.res</contentPath>
+            </_x003C_Puddle_x003E_k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">2445799173</gameobj>
           </item>

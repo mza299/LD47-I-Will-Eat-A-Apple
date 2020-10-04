@@ -15,7 +15,7 @@ namespace Duality_
 {
     public static class GameManager
     {
-        public enum GAMESTATE { RUNNING, PAUSED };
+        public enum GAMESTATE { RUNNING, PAUSED, LOST };
 
         public static GAMESTATE State;
 
