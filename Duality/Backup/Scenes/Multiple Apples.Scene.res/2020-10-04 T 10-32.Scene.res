@@ -725,7 +725,7 @@
       <parent />
       <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="3306023238">
         <changes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2667453851">
-          <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2979394454" length="16">
+          <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2979394454">
             <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
               <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="3683636476">
                 <_items dataType="Array" type="System.Int32[]" id="511613252"></_items>
@@ -843,17 +843,8 @@
               <prop dataType="MemberInfo" id="3128777114" value="P:Duality_.PlayerMovement:Speed" />
               <val dataType="Float">10</val>
             </item>
-            <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
-              <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="706906972">
-                <_items dataType="Array" type="System.Int32[]" id="3369311524"></_items>
-                <_size dataType="Int">0</_size>
-              </childIndex>
-              <componentType dataType="ObjectRef">4278674748</componentType>
-              <prop dataType="MemberInfo" id="74897782" value="P:Duality.Components.Physics.RigidBody:ContinousCollision" />
-              <val dataType="Bool">true</val>
-            </item>
           </_items>
-          <_size dataType="Int">9</_size>
+          <_size dataType="Int">8</_size>
         </changes>
         <obj dataType="ObjectRef">2445799173</obj>
         <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">

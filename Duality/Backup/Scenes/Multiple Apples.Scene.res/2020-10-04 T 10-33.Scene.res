@@ -850,7 +850,7 @@
               </childIndex>
               <componentType dataType="ObjectRef">4278674748</componentType>
               <prop dataType="MemberInfo" id="74897782" value="P:Duality.Components.Physics.RigidBody:ContinousCollision" />
-              <val dataType="Bool">true</val>
+              <val dataType="Bool">false</val>
             </item>
           </_items>
           <_size dataType="Int">9</_size>

@@ -1,14 +1,14 @@
-[Core] Msg: Running DualityLauncher with flags: RunFromEditor
+[Core] Msg: Running DualityLauncher with flags: 
 [Core] Msg: Using 'DefaultAssemblyLoader' to load plugins.
 [Core] Msg: Environment Info:
-              Current Directory: E:\Project work\LDs\47\LD47---Pick-Up-The-Strawberry\Duality
-              Command Line: "E:\Project work\LDs\47\LD47---Pick-Up-The-Strawberry\Duality\DualityLauncher.exe" editor
+              Current Directory: C:\Users\mzhad\Desktop\Duality Projects\LD47\LD47---Pick-Up-The-Strawberry\Duality
+              Command Line: "C:\Users\mzhad\Desktop\Duality Projects\LD47\LD47---Pick-Up-The-Strawberry\Duality\DualityLauncher.exe" 
               Operating System: Windows 8 or higher (Microsoft Windows NT 6.2.9200.0)
               64 Bit OS: True
               64 Bit Process: True
               CLR Version: 4.0.30319.42000
               Processor Count: 8
-              Processor Type: AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
+              Processor Type: Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
               Processor Architecture: AMD64
 [Core] Msg: Currently Loaded Assemblies:
               mscorlib 4.0.0.0
@@ -29,6 +29,7 @@
 [Core] Msg: Plugin Base Directories:
               Plugins
 [Core] Msg: Available Assembly Paths:
+              Plugins\CameraController.core.dll
               Plugins\CamView.editor.dll
               Plugins\Compatibility.core.dll
               Plugins\DefaultOpenTKBackend.core.dll
@@ -45,10 +46,12 @@
               Plugins\ProjectView.editor.dll
               Plugins\SceneView.editor.dll
 [Core] Msg: Scanning for core plugins...
-[Core] Msg:   Plugins\Compatibility.core.dll...
-[Core] Msg:     Assembly loaded: Compatibility.core 3.0.4.0
+[Core] Msg:   Plugins\CameraController.core.dll...
+[Core] Msg:     Assembly loaded: CameraController.core 3.0.4.0
 [Core] Msg:     Assembly loaded: System.Linq.Expressions 4.0.0.0
 [Core] Msg:     Assembly loaded: Anonymously Hosted DynamicMethods Assembly 0.0.0.0
+[Core] Msg:   Plugins\Compatibility.core.dll...
+[Core] Msg:     Assembly loaded: Compatibility.core 3.0.4.0
 [Core] Msg:   Plugins\DefaultOpenTKBackend.core.dll...
 [Core] Msg:     Assembly loaded: DefaultOpenTKBackend.core 3.2.0.0
 [Core] Msg:     Assembly loaded: OpenTK 1.2.2.0
@@ -73,15 +76,11 @@
 [Core] Msg:       Platform Backend: PreferNative
                   EnableHighResolution: True
 [Core] Msg:     Assembly loaded: System.Drawing 4.0.0.0
-[Core] Msg:     Detected new Gamepad Input: "Gamepad 0" (03000000-ff00-0000-ccba-000000000000 | Unmapped Controller) at index 0
-[Core] Msg:     Detected new Gamepad Input: "Gamepad 1" (03000000-6c25-0000-6e00-000000000000 | Unmapped Controller) at index 1
-[Core] Msg:     Detected new Joystick Input: "Joystick 0" (03000000-ff00-0000-ccba-000000000000 | Joystick) at index 0
-                Capabilities: 2 axes, 0 buttons, 0 hats
-[Core] Msg:     Detected new Joystick Input: "Joystick 1" (03000000-6c25-0000-6e00-000000000000 | Joystick) at index 1
-                Capabilities: 2 axes, 0 buttons, 0 hats
+[Core] Msg:     Detected new Gamepad Input: "Gamepad 0" (03000000-0000-0000-0000-000000000000 | Unmapped Controller) at index 0
+[Core] Msg:     Detected new Joystick Input: "Joystick 0" (03000000-0000-0000-0000-000000000000 | Joystick) at index 0
+                Capabilities: 2 axes, 1 buttons, 0 hats
 [Core] Msg:     Available display devices:
-[Core] Msg:       First : 1920x1080 at  30 Hz, 32 bpp, pos [   0,   0] (Primary)
-[Core] Msg:       Second: 1920x1080 at  60 Hz, 32 bpp, pos [1920,   0]
+[Core] Msg:       First : 1920x1080 at  60 Hz, 32 bpp, pos [   0,   0] (Primary)
 [Core] Msg:     Available graphics modes:
 [Core] Msg:       Index: , Color: 32 (8888), Depth: 24, Stencil: 0, Samples: 0, Accum: 0 (0000), Buffers: 2, Stereo: False
 [Core] Msg:       Index: , Color: 32 (8888), Depth: 24, Stencil: 0, Samples: 2, Accum: 0 (0000), Buffers: 2, Stereo: False
@@ -95,9 +94,7 @@
 [Core] Msg:   OpenAL (OpenTK)...
 [Core] Msg:     OpenAL Drivers installed in C:\WINDOWS\system32\OpenAL32.dll
 [Core] Msg:     Available devices:
-                  Generic Software on 32W_LCD_TV (NVIDIA High Definition Audio) (Default)
-                  Generic Software on Speakers (Steam Streaming Speakers)
-                  Generic Software on Speakers (Steam Streaming Microphone)
+                  Generic Software on Speakers (Realtek High Definition Audio) (Default)
 [Core] Msg:     Current device: Generic Software
 [Core] Msg:     OpenAL Version: 1.1
                 Vendor: Creative Labs Inc.
@@ -105,13 +102,14 @@
                 Effects: True
 [Core] Msg:     256 sources available
 [Core] Msg: Initializing core plugins...
+[Core] Msg:   CameraController.core...
 [Core] Msg:   Compatibility.core...
 [Core] Msg:   DefaultOpenTKBackend.core...
 [Core] Msg:   DotNetFrameworkBackend.core...
 [Core] Msg:   GamePlugin.core...
 [Core] Msg: DualityApp initialized
             Debug Mode: False
-            Command line arguments: editor
+            Command line arguments: 
 [Core] Msg: Opening Window...
 [Core] Msg:   Context specs: 
                 Buffers: 2
@@ -119,14 +117,14 @@
                 ColorFormat: 32 (8888)
                 AccumFormat: 64 (16161616)
                 Depth: 24
-                Stencil: 0
-                SwapInterval: -1
+                Stencil: 8
+                SwapInterval: 1
 [Core] Msg:   Graphics backend capabilities:
-                OpenGL Version: '4.6.0 NVIDIA 432.00', i.e. 4.6.0
-                Vendor: NVIDIA Corporation
-                Renderer: GeForce GTX 750 Ti/PCIe/SSE2
-                GLSL Version: '4.60 NVIDIA', i.e. 4.60
-                API Version: 4.60
+                OpenGL Version: '3.0.0 - Build 26.20.100.7263', i.e. 3.0.0
+                Vendor: Intel
+                Renderer: Intel(R) UHD Graphics 620
+                GLSL Version: '1.30 - Build 26.20.100.7263', i.e. 1.30
+                API Version: 1.30
                 Max Texture Size: 16384
                 Max Texture Bindings: 32
                 Max RenderTarget Size: 16384
@@ -146,18 +144,17 @@
 [Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
 [Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
 [Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
 [Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
 [Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
 [Core] Msg: Determining OpenGL rendering capabilities...
-[Core] Msg:   Requested 16 MSAA samples, but got 2 samples instead.
 [Game] Msg: You have entered main area
 [Core] Msg: Loading Resource 'Data\Sprites\LadderTilesHorzLR.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\LadderTilesHorzLR.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\LadderTilesHorzLR.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\PlayerLR.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\PlayerLR.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\PlayerLR.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalk.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalk.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalk.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites\LandStatic.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\LandStatic.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\LandStatic.Pixmap.res'
@@ -177,19 +174,64 @@
 [Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkDown.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkDown.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkDown.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalk.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalk.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalk.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkUp.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkUp.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkUp.Pixmap.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
 [Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
 [Game] Msg: Count is now 2
 [Game] Msg: You have entered main area
-[Game] Msg: Going to next level and you will be spawned at (-2289.327, -1.105972, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Scene 0.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (-2289.327, 42.47599, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
 [Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (-2289.327, 2.168483, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: Count is now 4
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
 [Core] Msg: Shutting down OpenGL 2.1 (OpenTK)...
