@@ -12,7 +12,7 @@ namespace Duality_
     {
         public enum ID
         {
-            PLAYER, SENSOR, APPLE, MAINAREA
+            PLAYER, SENSOR, APPLE, MAINAREA, WATER
         }
 
         public ID iD { get; set; }

@@ -63,12 +63,14 @@ namespace Duality_
                 {
                     player.Transform.MoveTo(new Vector3(TransportPos.X, player.Transform.Pos.Y, 0));
                     GameManager.PlayerPosition = new Vector3(TransportPos.X, player.Transform.Pos.Y, 0);
+                    GameManager.Camera().Transform.MoveTo(new Vector3(TransportPos.X, player.Transform.Pos.Y, -500f));
                 }
 
                 if (Pos == SelfPOS.D || Pos == SelfPOS.U)
                 {
                     player.Transform.MoveTo(new Vector3(player.Transform.Pos.X, TransportPos.Y, 0));
                     GameManager.PlayerPosition = new Vector3(player.Transform.Pos.X, TransportPos.Y, 0);
+                    GameManager.Camera().Transform.MoveTo(new Vector3(player.Transform.Pos.X, TransportPos.Y, -500f));
                 }
                 GameManager.PlayerStance = player.GetComponent<SpriteRenderer>().SharedMaterial;
                 IncreaseCount();

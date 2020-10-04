@@ -32,6 +32,11 @@ namespace Duality_
             State = s;
         }
 
+        public static GameObject Camera()
+        {
+            return Scene.Current.FindComponent<Camera>().GameObj;
+        }
+
         public static bool DirectionalKeyRelease()
         {
             if (Keyboard.KeyReleased(Key.W) || Keyboard.KeyReleased(Key.A) || Keyboard.KeyReleased(Key.S) || Keyboard.KeyReleased(Key.D) ||
