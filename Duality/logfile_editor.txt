@@ -424,3 +424,1494 @@
 [Game] Msg: Your a WINNER :P
 [Game] Msg: You have entered main area
 [Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Assembly loaded: System.Data.Services.Client 4.0.0.0
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare (2).Scene.res'
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag' in object Id 403681645. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Msg: Loading Resource 'Data\Sprites\Room.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Sprites\DialogBox.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Sprites\DialogBox.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Room.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Font\Symtext.Font.res'
+[Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\SharpAlpha'...
+[Core] Msg:   Compiling Fragment shader 'Default\FragmentShader\SharpAlpha'...
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Font\Symtext.Font.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: Count is now 1
+[Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (-2289.327, 24.99996, 0)
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (2355.419, 24.99997, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Game] Msg: Count is now 4
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (6.67854, 1870.409, 0)
+[Game] Msg: Count is now 5
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (23.70555, 1870.409, 0)
+[Game] Msg: Count is now 6
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (23.70555, -1908.733, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Game] Msg: Count is now 7
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (8.018783, -1908.733, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Game] Msg: Count is now 8
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (-2289.327, 49.73412, 0)
+[Game] Msg: Count is now 9
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (2355.419, 49.73412, 0)
+[Game] Msg: Count is now 10
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Glitch.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + You are The Apple.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerAI.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Missing Island and Dancing Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\You are The Apple.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\PlayerAI.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogFormat.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Glitch.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + You are The Apple.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Missing Island and Dancing Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (-14.82355, -1908.733, 0)
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (44.07214, -1908.733, 0)
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (46.84042, -1908.733, 0)
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Count is now 1
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Going to next level and you will be spawned at (2355.419, 42.88565, 0)
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Prefabs\PlayerAISpawner.Prefab.res'
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (2355.419, 12.40418, 0)
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (-2.189244, 1870.409, 0)
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Going to next level and you will be spawned at (27.93963, 1870.409, 0)
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (13.23911, 1870.409, 0)
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (62.28441, -1908.733, 0)
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Count is now 1
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Going to next level and you will be spawned at (2355.419, 40.27493, 0)
+[Game] Msg: Count is now 3
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\You are The Apple.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + You are The Apple.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Missing Island and Dancing Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogFormat.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (2355.419, -25.58115, 0)
+[Game] Msg: Count is now 3
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Count is now 1
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Count is now 2
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Going to next level and you will be spawned at (6.999229, -1908.733, 0)
+[Game] Msg: Count is now 3
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Count is now 1
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Count is now 2
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Going to next level and you will be spawned at (37.3451, -1908.733, 0)
+[Game] Msg: Count is now 3
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room (2).Scene.res'
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag' in object Id 403681645. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Msg: Loading Resource 'Data\Sprites\MenuApple.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogFormat.Prefab.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Sprites\MenuApple.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogFormat.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Missing Island and Dancing Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu.Scene.res'
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu.Scene.res'
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu.Scene.res'
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogFormat.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Missing Island and Dancing Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:   Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:   Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:   Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg: Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu.Scene.res'
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu.Scene.res'
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag' in object Id 403681645. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogFormat.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Glitch.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + You are The Apple.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerAI.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Missing Island and Dancing Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\You are The Apple.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0 (2).Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0 (2).Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag' in object Id 403681645. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag' in object Id 403681645. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: DualityApp terminated in sandbox mode.
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MM.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Missing Island and Dancing Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Glitch.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Missing Island and Dancing Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Glitch.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogFormat.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0 (2).Scene.res'
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag' in object Id 403681645. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogFormat.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Glitch.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\You are The Apple.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerAI.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + You are The Apple.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Missing Island and Dancing Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Scenes\End Menu.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End Menu.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End Menu (2).Scene.res'
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag' in object Id 403681645. Type not found.
+[Core] Wrn: Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR: Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Scenes\End Menu.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Scenes\End Menu.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Final.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Final.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Final.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Glitch2.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Glitch2.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Glitch.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + Multiple Apples.Scene.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + You are The Apple.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerAI.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\You are The Apple.Scene.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Missing Island and Dancing Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\End Menu.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogFormat.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples.Scene.res'
+[Edit] Msg: Saving user data...
+[Core] Msg: Shutting down GLControl (OpenTK)...
+[Core] Msg: Shutting down OpenGL 2.1 (OpenTK)...
+[Core] Msg: Shutting down OpenAL (OpenTK)...
+[Core] Msg: Shutting down .Net Framework...
+[Core] Msg: DualityApp terminated

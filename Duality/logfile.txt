@@ -135,6 +135,42 @@
 [Core] Msg:   Assembly loaded: NVorbis 0.7.6.0
 [Core] Msg:   ...done!
 [Core] Msg: Assembly loaded: DualityPhysics 3.0.4.0
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\SaveFile.SaveFile.res'
+[Core] Msg: Loading Resource 'Data\Font\Symtext.Font.res'
+[Core] Msg: Determining OpenGL rendering capabilities...
+[Core] Msg: Loading Resource 'Data\Sprites\MenuApple.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\MenuApple.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\MenuApple.Pixmap.res'
+[Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Mask'...
+[Core] Msg:   Compiling Vertex shader 'Default\VertexShader\Minimal'...
+[Core] Msg:   Compiling Fragment shader 'Default\FragmentShader\Minimal'...
+[Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\SharpAlpha'...
+[Core] Msg:   Compiling Fragment shader 'Default\FragmentShader\SharpAlpha'...
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalk.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalk.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalk.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkDown.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkDown.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkDown.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkUp.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkUp.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkUp.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Apple.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\Apple.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\Apple.Pixmap.res'
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Room.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\Room.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\Room.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\DialogBox.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\DialogBox.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\DialogBox.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
 [Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
 [Core] Msg:     Assembly loaded: System.Security 4.0.0.0
@@ -147,70 +183,122 @@
 [Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
 [Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
 [Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
-[Core] Msg: Determining OpenGL rendering capabilities...
-[Game] Msg: You have entered main area
+[Core] Msg:   Loading Resource 'Data\Prefabs\DialogFormat.Prefab.res'
 [Core] Msg: Loading Resource 'Data\Sprites\LadderTilesHorzLR.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\LadderTilesHorzLR.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\LadderTilesHorzLR.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalk.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalk.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalk.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites\LandStatic.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\LandStatic.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\LandStatic.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites\Tree.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\Tree.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\Tree.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\Apple.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\Apple.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\Apple.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites\Waves.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\Waves.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\Waves.Pixmap.res'
-[Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Mask'...
-[Core] Msg:   Compiling Vertex shader 'Default\VertexShader\Minimal'...
-[Core] Msg:   Compiling Fragment shader 'Default\FragmentShader\Minimal'...
 [Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Add'...
-[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkDown.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkDown.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkDown.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkUp.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkUp.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkUp.Pixmap.res'
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (17.09376, -1908.733, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Game] Msg: Count is now 3
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (2355.419, 39.25459, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
+[Game] Msg: Count is now 3
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (2355.419, 15.74602, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Glitch.Prefab.res'
+[Game] Msg: Count is now 3
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
 [Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
 [Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (-2289.327, 32.74808, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\You are The Apple.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerAI.Prefab.res'
+[Game] Msg: Count is now 3
 [Game] Msg: You have entered main area
 [Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\PlayerAISpawner.Prefab.res'
+[Game] Msg: Count is now 1
+[Core] Msg: Loading Resource 'Data\Sprites\PlayerLR.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\PlayerLR.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\PlayerLR.Pixmap.res'
+[Game] Msg: You have entered main area
 [Core] Msg: Loading Resource 'Data\Sprites\Puddle.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\Puddle.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\Puddle.Pixmap.res'
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (-2289.327, 36.85411, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\Eyes.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
+[Game] Msg: Count is now 3
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Sprites\Eyes.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\Eyes.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\Eyes.Pixmap.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Going to next level and you will be spawned at (2355.419, 30.72587, 0)
+[Core] Msg: Loading Resource 'Data\Scenes\Glitch + Multiple Apples.Scene.res'
+[Game] Msg: Count is now 3
+[Core] Msg: Loading Resource 'Data\Sprites\Glitch2.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\Glitch2.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\Glitch2.Pixmap.res'
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 1
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: Count is now 2
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
 [Core] Msg: Shutting down OpenGL 2.1 (OpenTK)...
 [Core] Msg: Shutting down OpenAL (OpenTK)...
 [Core] Msg: Shutting down .Net Framework...

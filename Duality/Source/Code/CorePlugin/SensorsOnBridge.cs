@@ -82,7 +82,7 @@ namespace Duality_
             if (GameManager.EnteredMainArea)
             {
                 GameManager.DisObeyCount += 1;
-                if (GameManager.DisObeyCount >= MaxSensorCount)
+                if (GameManager.DisObeyCount > GameManager.DisobeyIncrement)
                 {
                     Game.Write("Going to next level and you will be spawned at " + GameManager.PlayerPosition.ToString());
                     GameManager.GoToNextScene();

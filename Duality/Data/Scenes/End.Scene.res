@@ -167,6 +167,9 @@
             <gameobj dataType="ObjectRef">2445799173</gameobj>
           </item>
           <item dataType="Struct" type="Duality_.PlayerMovement" id="3116194924">
+            <_x003C_MM_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Scene]]">
+              <contentPath dataType="String">Data\Scenes\MainMenu0.Scene.res</contentPath>
+            </_x003C_MM_x003E_k__BackingField>
             <_x003C_Speed_x003E_k__BackingField dataType="Float">300</_x003C_Speed_x003E_k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">2445799173</gameobj>
@@ -4906,6 +4909,7 @@
             <_x003C_Apple_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
               <contentPath dataType="String">Data\Prefabs\StaticApple.Prefab.res</contentPath>
             </_x003C_Apple_x003E_k__BackingField>
+            <_x003C_Cam_x003E_k__BackingField dataType="ObjectRef">4177146907</_x003C_Cam_x003E_k__BackingField>
             <_x003C_Interval_x003E_k__BackingField dataType="Float">1</_x003C_Interval_x003E_k__BackingField>
             <_x003C_Speed_x003E_k__BackingField dataType="Float">5</_x003C_Speed_x003E_k__BackingField>
             <active dataType="Bool">true</active>

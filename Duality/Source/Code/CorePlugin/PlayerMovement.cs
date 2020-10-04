@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 using Duality;
 using Duality.Input;
 using Duality.Components.Physics;
+using Duality.Resources;
+
+using static System.IO.Path;
+using static Duality.DualityApp;
 
 namespace Duality_
 {
@@ -15,21 +19,37 @@ namespace Duality_
     {
         public float Speed { get; set; } = 10f;
 
+        public ContentRef<Scene> MM { get; set; }
+
         [DontSerialize]
         RigidBody rb;
 
         void ICmpInitializable.OnActivate()
         {
             rb = GameObj.GetComponent<RigidBody>();
-            GameObj.Transform.MoveTo(GameManager.PlayerPosition);
+            if (Scene.Name != "Nightmare End" && Scene.Name != "End" && Scene.Name != "Nightmare" && Scene.Name != "Room")
+                GameObj.Transform.MoveTo(GameManager.PlayerPosition);
             GameManager.SetGameState(GameManager.GAMESTATE.RUNNING);
+            GameManager.DisObeyCount = 0;
             DualityApp.Keyboard.KeyDown += ExitPlan;
         }
 
         private void ExitPlan(object sender, KeyboardKeyEventArgs e)
         {
             if (e.Key == Key.Escape)
-                DualityApp.Terminate();
+                GameManager.GoToMainMenu();
+        }
+
+        public void GoToMainMenu()
+        {
+            var currentScene = Scene.Current;
+            //var mainMenu = ContentProvider.RequestContent<Scene>(Combine(DataDirectory, "Scenes", "MainMenu0.Scene.res"));
+            if (MM != null)
+            {
+                //mainMenu.Res.Activate();
+                Scene.SwitchTo(MM);
+                currentScene.Dispose();
+            }
         }
 
         void Move()

@@ -10,6 +10,7 @@ using Duality.Resources;
 using Duality.Input;
 
 using static Duality.DualityApp;
+using static System.IO.Path;
 
 namespace Duality_
 {
@@ -20,6 +21,8 @@ namespace Duality_
         public static GAMESTATE State;
 
         public static int DisObeyCount;
+
+        public static int DisobeyIncrement = 2;
 
         public static bool EnteredMainArea;
 
@@ -56,5 +59,40 @@ namespace Duality_
                 currentScene.Dispose();
             }
         }
+
+        public static void GoToNextScene(ContentRef<Scene> s)
+        {
+            var currentScene = Scene.Current;
+            if (s != null)
+            {
+                Scene.SwitchTo(s);
+                currentScene.Dispose();
+            }
+        }
+
+        public static void GoToMainMenu()
+        {
+            var currentScene = Scene.Current;
+            var mainMenu = ContentProvider.RequestContent<Scene>(Combine(DataDirectory, "Scenes", "MainMenu0.Scene.res"));
+            if (mainMenu != null)
+            {
+                //mainMenu.Res.Activate();
+                Scene.SwitchTo(mainMenu);
+                currentScene.Dispose();
+            }
+        }
+
+        public static void EndScene()
+        {
+            var currentScene = Scene.Current;
+            var mainMenu = ContentProvider.RequestContent<Scene>(Combine(DataDirectory, "Scenes", "End Menu.Scene.res"));
+            if (mainMenu != null)
+            {
+                //mainMenu.Res.Activate();
+                Scene.SwitchTo(mainMenu);
+                currentScene.Dispose();
+            }
+        }
+
     }
 }

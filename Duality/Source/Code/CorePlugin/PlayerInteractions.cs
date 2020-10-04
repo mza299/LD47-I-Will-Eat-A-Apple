@@ -21,6 +21,9 @@ namespace Duality_
 
         void ICmpCollisionListener.OnCollisionBegin(Component sender, CollisionEventArgs args)
         {
+            if (args.CollideWith.ContainsTag() && args.CollideWith.HasID(Tag.ID.DOOR))
+                GameManager.GoToNextScene();
+
             if (args.CollideWith.ContainsTag() && args.CollideWith.HasID(Tag.ID.MAINAREA))
             {
                 GameManager.EnteredMainArea = true;
@@ -30,6 +33,10 @@ namespace Duality_
             if (args.CollideWith.ContainsTag() && args.CollideWith.HasID(Tag.ID.APPLE))
             {
                 Game.Write("Your a WINNER :P");
+                if (Scene.Name != "Nightmare")
+                    GameManager.EndScene();
+                else
+                    GameManager.GoToNextScene();
             }
 
             if (args.CollideWith.ContainsTag() && args.CollideWith.HasID(Tag.ID.WATER))

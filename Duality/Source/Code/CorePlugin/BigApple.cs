@@ -32,6 +32,11 @@ namespace Duality_
 
         public ContentRef<Prefab> Apple{ get; set; }
 
+        public GameObject Cam { get; set; }
+
+        [DontSerialize]
+        bool EnableSway = false;
+
         [DontSerialize]
         int SpawnCount = 0;
 
@@ -52,7 +57,35 @@ namespace Duality_
 
         void ICmpUpdatable.OnUpdate()
         {
+            IsSwayEnabled();
+            SwayCam();
             MoveTowardsPlayer();
+            TheEnd();
+        }
+
+        void IsSwayEnabled()
+        {
+            if (SpawnCount > 1)
+            {
+                EnableSway = true;
+            }
+        }
+
+        void SwayCam()
+        {
+            if (EnableSway)
+            {
+                Cam.Transform.Angle = MathF.Sin(Time.DeltaTime);
+            }
+        }
+
+        void TheEnd()
+        {
+            if (SpawnCount > 30)
+            {
+                Scene.RemoveObject(GameObj);
+                playerTransform.GameObj.AddComponent<ImminantEnd>();
+            }
         }
 
         void MoveTowardsPlayer()
