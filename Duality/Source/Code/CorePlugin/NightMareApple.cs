@@ -28,8 +28,10 @@ namespace Duality_
         [DontSerialize]
         int appleCount = 0;
 
-        [DontSerialize]
-        const int maxAppleCount = 20;
+        //[DontSerialize]
+        //const int maxAppleCount = 20;
+
+        public int maxAppleCount { get; set; } = 20;
 
         void ICmpUpdatable.OnUpdate()
         {
