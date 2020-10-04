@@ -1,8 +1,8 @@
-[Core] Msg: Running DualityLauncher with flags: 
+[Core] Msg: Running DualityLauncher with flags: RunFromEditor
 [Core] Msg: Using 'DefaultAssemblyLoader' to load plugins.
 [Core] Msg: Environment Info:
               Current Directory: C:\Users\mzhad\Desktop\Duality Projects\LD47\LD47---Pick-Up-The-Strawberry\Duality
-              Command Line: "C:\Users\mzhad\Desktop\Duality Projects\LD47\LD47---Pick-Up-The-Strawberry\Duality\DualityLauncher.exe" 
+              Command Line: "C:\Users\mzhad\Desktop\Duality Projects\LD47\LD47---Pick-Up-The-Strawberry\Duality\DualityLauncher.exe" editor
               Operating System: Windows 8 or higher (Microsoft Windows NT 6.2.9200.0)
               64 Bit OS: True
               64 Bit Process: True
@@ -109,7 +109,7 @@
 [Core] Msg:   GamePlugin.core...
 [Core] Msg: DualityApp initialized
             Debug Mode: False
-            Command line arguments: 
+            Command line arguments: editor
 [Core] Msg: Opening Window...
 [Core] Msg:   Context specs: 
                 Buffers: 2
@@ -181,11 +181,6 @@
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
-[Game] Msg: Count is now 1
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Count is now 2
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
@@ -212,28 +207,10 @@
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
 [Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Going to next level and you will be spawned at (-2289.327, 42.47599, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
-[Game] Msg: Count is now 3
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Going to next level and you will be spawned at (-2289.327, 2.168483, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
-[Game] Msg: Count is now 4
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Puddle.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\Puddle.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\Puddle.Pixmap.res'
 [Core] Msg: Shutting down OpenGL 2.1 (OpenTK)...
 [Core] Msg: Shutting down OpenAL (OpenTK)...
 [Core] Msg: Shutting down .Net Framework...

@@ -48,15 +48,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CorePlugin.cs" />
+    <Compile Include="DancingApples.cs" />
     <Compile Include="DebugPlayerSprite.cs" />
     <Compile Include="DestroyAfterSeconds.cs" />
+    <Compile Include="Eyes.cs" />
     <Compile Include="GameManager.cs" />
+    <Compile Include="NightMareApple.cs" />
+    <Compile Include="PlayerAI.cs" />
     <Compile Include="PlayerAnimations.cs" />
     <Compile Include="PlayerInteractions.cs" />
     <Compile Include="PlayerMovement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SceneHolder.cs" />
     <Compile Include="SensorsOnBridge.cs" />
+    <Compile Include="Spawner.cs" />
     <Compile Include="Tag.cs" />
     <Compile Include="Tag_Extension.cs" />
   </ItemGroup>

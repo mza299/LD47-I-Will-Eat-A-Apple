@@ -192,7 +192,7 @@
 [Edit] Msg:   ProjectView.editor...
 [Edit] Msg:   SceneView.editor...
 [Core] Msg: Assembly loaded: DualityPhysics 3.0.4.0
-[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\You are The Apple.Scene.res'
 [Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
 [Core] Msg:     Assembly loaded: System.Security 4.0.0.0
 [Core] Msg:     Assembly loaded: Accessibility 4.0.0.0
@@ -206,29 +206,29 @@
 [Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
 [Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
 [Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
 [Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
 [Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerAI.Prefab.res'
 [Core] Msg: Loading Resource 'Data\Sprites\LadderTilesHorzLR.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\LadderTilesHorzLR.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\LadderTilesHorzLR.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites\LandStatic.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\LandStatic.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\LandStatic.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\Apple.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\Apple.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\Apple.Pixmap.res'
 [Core] Msg: Determining OpenGL rendering capabilities...
 [Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Picking'...
 [Core] Msg:   Compiling Vertex shader 'Default\VertexShader\Minimal'...
 [Core] Msg:   Compiling Fragment shader 'Default\FragmentShader\Picking'...
-[Core] Msg: Loading Resource 'Data\Sprites\PlayerLR.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\PlayerLR.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\PlayerLR.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\Apple.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\Apple.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\Apple.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites\Tree.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\Tree.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\Tree.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Sprites\PlayerLR.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\PlayerLR.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\PlayerLR.Pixmap.res'
 [Core] Msg: Loading Resource 'Data\Sprites\Waves.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\Waves.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\Waves.Pixmap.res'
@@ -237,354 +237,140 @@
 [Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Add'...
 [Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Solid'...
 [Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Alpha'...
-[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
-[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
 [Core] Msg: Loading Resource 'Data\Sprites\PlayerWalk.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalk.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalk.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
 [Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkUp.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkUp.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkUp.Pixmap.res'
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
 [Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkDown.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkDown.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkDown.Pixmap.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Edit] ERR: OverflowException: Value was either too large or too small for a Decimal.
+            CallStack:
+               at System.Decimal.FCallAddSub(Decimal& d1, Decimal& d2, Byte bSign)
+               at System.Linq.Enumerable.Average(IEnumerable`1 source)
+               at AdamsLair.WinForms.PropertyEditing.Editors.NumericPropertyEditor.OnGetValue() in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\PropertyEditors\NumericPropertyEditor.cs:line 93
+               at AdamsLair.WinForms.PropertyEditing.PropertyEditor.PerformGetValue() in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\PropertyEditor.cs:line 429
+               at AdamsLair.WinForms.PropertyEditing.MemberwisePropertyEditor.OnGetValue() in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\MemberwisePropertyEditor.cs:line 321
+               at AdamsLair.WinForms.PropertyEditing.PropertyEditor.PerformGetValue() in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\PropertyEditor.cs:line 429
+               at AdamsLair.WinForms.PropertyEditing.MemberwisePropertyEditor.InitContent() in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\MemberwisePropertyEditor.cs:line 104
+               at AdamsLair.WinForms.PropertyEditing.GroupedPropertyEditor.set_Expanded(Boolean value) in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\GroupedPropertyEditor.cs:line 63
+               at AdamsLair.WinForms.PropertyEditing.ExpandState.ApplyTo(PropertyEditor mainEditor, Boolean dontCollapse) in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\PropertyGrid.cs:line 89
+               at Duality.Editor.Plugins.ObjectInspector.ObjectInspector.UpdateSelection(ObjectSelection sel, Category showCat) in C:\projects\duality\Source\Plugins\EditorModules\ObjectInspector\Modules\ObjectInspector.cs:line 192
+               at Duality.Editor.Plugins.ObjectInspector.ObjectInspector.GlobalUpdateSelection(Object sender, SelectionChangedEventArgs e) in C:\projects\duality\Source\Plugins\EditorModules\ObjectInspector\Modules\ObjectInspector.cs:line 314
+               at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+               at Duality.Editor.DualityEditorApp.OnSelectionChanged(Object sender, Category changedCategoryFallback, SelectionChangeReason changeReson) in C:\projects\duality\Source\Editor\DualityEditor\DualityEditorApp.cs:line 1173
+               at Duality.Editor.Plugins.SceneView.SceneView.objectView_SelectionChanged(Object sender, EventArgs e) in C:\projects\duality\Source\Plugins\EditorModules\SceneView\Modules\SceneView.cs:line 1051
+               at Duality.Editor.Plugins.SceneView.SceneView.objectView_MouseUp(Object sender, MouseEventArgs e) in C:\projects\duality\Source\Plugins\EditorModules\SceneView\Modules\SceneView.cs:line 1308
+               at System.Windows.Forms.Control.OnMouseUp(MouseEventArgs e)
+               at Aga.Controls.Tree.TreeViewAdv.OnMouseUp(MouseEventArgs e) in D:\svn\Projects\AdamsLair.TreeViewAdv\Aga.Controls\Tree\TreeViewAdv.Input.cs:line 222
+               at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+               at System.Windows.Forms.Control.WndProc(Message& m)
+               at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+[Edit] ERR: OverflowException: Value was either too large or too small for a Decimal.
+            CallStack:
+               at System.Decimal.FCallAddSub(Decimal& d1, Decimal& d2, Byte bSign)
+               at System.Linq.Enumerable.Average(IEnumerable`1 source)
+               at AdamsLair.WinForms.PropertyEditing.Editors.NumericPropertyEditor.OnGetValue() in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\PropertyEditors\NumericPropertyEditor.cs:line 93
+               at AdamsLair.WinForms.PropertyEditing.PropertyEditor.PerformGetValue() in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\PropertyEditor.cs:line 429
+               at AdamsLair.WinForms.PropertyEditing.MemberwisePropertyEditor.OnGetValue() in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\MemberwisePropertyEditor.cs:line 321
+               at AdamsLair.WinForms.PropertyEditing.PropertyEditor.PerformGetValue() in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\PropertyEditor.cs:line 429
+               at Duality.Editor.Plugins.Base.PropertyEditors.GameObjectOverviewPropertyEditor.OnGetValue() in C:\projects\duality\Source\Plugins\EditorBase\PropertyEditors\GameObjectOverviewPropertyEditor.cs:line 68
+               at AdamsLair.WinForms.PropertyEditing.PropertyEditor.PerformGetValue() in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\PropertyEditor.cs:line 429
+               at AdamsLair.WinForms.PropertyEditing.PropertyGrid.UpdateFromObjects(Int32 scheduleMs) in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\PropertyGrid.cs:line 387
+               at AdamsLair.WinForms.PropertyEditing.PropertyGrid.updateTimer_Tick(Object sender, EventArgs e) in D:\svn\Projects\AdamsLair.WinForms\WinForms\PropertyEditing\PropertyGrid.cs:line 1036
+               at System.Windows.Forms.Timer.OnTick(EventArgs e)
+               at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+               at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
 [Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Assembly loaded: Windows7.DesktopIntegration 1.0.0.0
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Msg:     Assembly loaded: System.Web.ApplicationServices 4.0.0.0
+[Core] Msg:     Assembly loaded: System.DirectoryServices.Protocols 4.0.0.0
+[Core] Msg:     Assembly loaded: System.DirectoryServices 4.0.0.0
+[Core] Msg:     Assembly loaded: System.Runtime.Caching 4.0.0.0
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] Msg:     Assembly loaded: System.Transactions 4.0.0.0
+[Core] Msg:     Assembly loaded: VistaBridgeLibrary 1.4.0.0
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] Msg:     Assembly loaded: PresentationCore 4.0.0.0
+[Core] Msg:     Assembly loaded: PresentationFramework 4.0.0.0
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
 [Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
 [Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Edit] Msg: Saving data...
+[Edit] Msg: Reloading core plugins...
+[Edit] Msg:   Plugins\GamePlugin.core.dll...
+[Core] Msg:     Assembly loaded: GamePlugin.core 1.0.0.0
+[Edit] Msg: Initializing reloaded core plugins...
+[Edit] Msg:   GamePlugin.core...
+[Edit] Msg:     Analyzing Core Plugin: GamePlugin.core
+[Edit] Msg: Restoring data...
+[Core] Msg: Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] Msg:     Assembly loaded: UIAutomationProvider 4.0.0.0
+[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
+[Core] Wrn:     Can't resolve Assembly 'Microsoft.Build.Framework, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a': None of the available assembly paths matches the requested name.
+[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
+[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
+[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
 [Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
-[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
-[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
+[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
+[Game] Msg: You have entered main area
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Game] Msg: Your a WINNER :P
+[Core] Msg: Loading Resource 'Data\Scenes\Nightmare.Scene.res'
 [Edit] Msg: Saving user data...
 [Core] Msg: Shutting down GLControl (OpenTK)...
 [Core] Msg: Shutting down OpenGL 2.1 (OpenTK)...
