@@ -12,5 +12,11 @@ namespace Duality_
     public class SaveFile : Resource
     {
         public bool FirstPlayed { get; set; }
+
+        public bool Invincible { get; set; }
+
+        public float sfxVol { get; set; }
+
+        public float musicVol { get; set; }
     }
 }

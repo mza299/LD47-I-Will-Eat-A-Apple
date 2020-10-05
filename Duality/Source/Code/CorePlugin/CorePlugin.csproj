@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BigApple.cs" />
+    <Compile Include="BoomBox.cs" />
     <Compile Include="CorePlugin.cs" />
     <Compile Include="DancingApples.cs" />
     <Compile Include="DebugPlayerSprite.cs" />
@@ -57,7 +58,9 @@
     <Compile Include="Eyes.cs" />
     <Compile Include="GameManager.cs" />
     <Compile Include="ImminantEnd.cs" />
+    <Compile Include="ImminentEndModified.cs" />
     <Compile Include="MainMenu.cs" />
+    <Compile Include="MusicFader.cs" />
     <Compile Include="NightMareApple.cs" />
     <Compile Include="PlayerAI.cs" />
     <Compile Include="PlayerAnimations.cs" />
@@ -69,6 +72,7 @@
     <Compile Include="SaveFile.cs" />
     <Compile Include="SceneHolder.cs" />
     <Compile Include="SensorsOnBridge.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="Shake.cs" />
     <Compile Include="Spawner.cs" />
     <Compile Include="Tag.cs" />

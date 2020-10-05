@@ -32,6 +32,32 @@
             <scale dataType="Float">1</scale>
             <scaleAbs dataType="Float">1</scaleAbs>
           </item>
+          <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="3914418453">
+            <active dataType="Bool">true</active>
+            <colorTint dataType="Struct" type="Duality.Drawing.ColorRgba">
+              <A dataType="Byte">255</A>
+              <B dataType="Byte">255</B>
+              <G dataType="Byte">255</G>
+              <R dataType="Byte">255</R>
+            </colorTint>
+            <customMat />
+            <flipMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+FlipMode" name="None" value="0" />
+            <gameobj dataType="ObjectRef">2445799173</gameobj>
+            <offset dataType="Float">1</offset>
+            <pixelGrid dataType="Bool">false</pixelGrid>
+            <rect dataType="Struct" type="Duality.Rect">
+              <H dataType="Float">60</H>
+              <W dataType="Float">60</W>
+              <X dataType="Float">-30</X>
+              <Y dataType="Float">-30</Y>
+            </rect>
+            <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
+            <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+              <contentPath dataType="String">Data\Sprites\PlayerWalk.Material.res</contentPath>
+            </sharedMat>
+            <spriteIndex dataType="Int">0</spriteIndex>
+            <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+          </item>
           <item dataType="Struct" type="Duality.Components.Physics.RigidBody" id="1980728661">
             <active dataType="Bool">true</active>
             <allowParent dataType="Bool">false</allowParent>
@@ -105,32 +131,6 @@
               <_size dataType="Int">1</_size>
             </shapes>
             <useCCD dataType="Bool">true</useCCD>
-          </item>
-          <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="3914418453">
-            <active dataType="Bool">true</active>
-            <colorTint dataType="Struct" type="Duality.Drawing.ColorRgba">
-              <A dataType="Byte">255</A>
-              <B dataType="Byte">255</B>
-              <G dataType="Byte">255</G>
-              <R dataType="Byte">255</R>
-            </colorTint>
-            <customMat />
-            <flipMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+FlipMode" name="None" value="0" />
-            <gameobj dataType="ObjectRef">2445799173</gameobj>
-            <offset dataType="Float">1</offset>
-            <pixelGrid dataType="Bool">false</pixelGrid>
-            <rect dataType="Struct" type="Duality.Rect">
-              <H dataType="Float">60</H>
-              <W dataType="Float">60</W>
-              <X dataType="Float">-30</X>
-              <Y dataType="Float">-30</Y>
-            </rect>
-            <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
-            <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-              <contentPath dataType="String">Data\Sprites\PlayerWalk.Material.res</contentPath>
-            </sharedMat>
-            <spriteIndex dataType="Int">0</spriteIndex>
-            <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
           </item>
           <item dataType="Struct" type="Duality.Components.Renderers.SpriteAnimator" id="2185995713">
             <active dataType="Bool">true</active>
@@ -243,6 +243,10 @@
             <scale dataType="Float">1</scale>
             <scaleAbs dataType="Float">1</scaleAbs>
           </item>
+          <item dataType="Struct" type="Duality.Components.VelocityTracker" id="1953314078">
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">4177146907</gameobj>
+          </item>
           <item dataType="Struct" type="Duality.Components.Camera" id="1428566088">
             <active dataType="Bool">true</active>
             <clearColor dataType="Struct" type="Duality.Drawing.ColorRgba">
@@ -269,10 +273,6 @@
               <Y dataType="Float">0</Y>
             </targetRect>
             <visibilityMask dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="All" value="4294967295" />
-          </item>
-          <item dataType="Struct" type="Duality.Components.VelocityTracker" id="1953314078">
-            <active dataType="Bool">true</active>
-            <gameobj dataType="ObjectRef">4177146907</gameobj>
           </item>
           <item dataType="Struct" type="Duality.Components.SoundListener" id="1914832138">
             <active dataType="Bool">true</active>
@@ -829,6 +829,60 @@
       <name dataType="String">NM</name>
       <parent />
       <prefabLink />
+    </item>
+    <item dataType="Struct" type="Duality.GameObject" id="1007203782">
+      <active dataType="Bool">true</active>
+      <children />
+      <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2121348368">
+        <_items dataType="Array" type="Duality.Component[]" id="174623548" length="4">
+          <item dataType="Struct" type="Duality_.MusicFader" id="3553316526">
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">1007203782</gameobj>
+          </item>
+        </_items>
+        <_size dataType="Int">1</_size>
+      </compList>
+      <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1365463278" surrogate="true">
+        <header />
+        <body>
+          <keys dataType="Array" type="System.Object[]" id="3663292258">
+            <item dataType="Type" id="2887875472" value="Duality_.MusicFader" />
+          </keys>
+          <values dataType="Array" type="System.Object[]" id="1063484810">
+            <item dataType="ObjectRef">3553316526</item>
+          </values>
+        </body>
+      </compMap>
+      <compTransform />
+      <identifier dataType="Struct" type="System.Guid" surrogate="true">
+        <header>
+          <data dataType="Array" type="System.Byte[]" id="868921490">02WsThNZTkGy++IsogLk5g==</data>
+        </header>
+        <body />
+      </identifier>
+      <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+      <name dataType="String">MusicComp</name>
+      <parent />
+      <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="989122028">
+        <changes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="3792850296">
+          <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3630722924" length="4">
+            <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+              <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="3418129832">
+                <_items dataType="Array" type="System.Int32[]" id="487990956"></_items>
+                <_size dataType="Int">0</_size>
+              </childIndex>
+              <componentType dataType="ObjectRef">2887875472</componentType>
+              <prop dataType="MemberInfo" id="2898556830" value="P:Duality_.MusicFader:Music" />
+              <val dataType="Enum" type="Duality_.GameManager+MusicType" name="Boss" value="3" />
+            </item>
+          </_items>
+          <_size dataType="Int">1</_size>
+        </changes>
+        <obj dataType="ObjectRef">1007203782</obj>
+        <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+          <contentPath dataType="String">Data\Prefabs\MusicComp.Prefab.res</contentPath>
+        </prefab>
+      </prefabLink>
     </item>
   </serializeObj>
   <visibilityStrategy dataType="Struct" type="Duality.Components.DefaultRendererVisibilityStrategy" id="2035693768" />

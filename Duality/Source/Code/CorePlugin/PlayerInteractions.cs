@@ -40,7 +40,10 @@ namespace Duality_
                     GameManager.EndScene();
                 }
                 else
-                    GameManager.GoToNextScene();
+                {
+                    if (GameManager.File.Res.Invincible == false)
+                        GameManager.GoToNextScene();
+                }
             }
 
             if (args.CollideWith.ContainsTag() && args.CollideWith.HasID(Tag.ID.WATER))

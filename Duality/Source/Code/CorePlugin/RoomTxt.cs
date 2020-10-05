@@ -18,6 +18,7 @@ namespace Duality_
 
         void ICmpInitializable.OnActivate()
         {
+            GameManager.PlayerPosition = new Vector3(-110, 175, 0);
             txt = GameObj.GetComponent<TextRenderer>();
 
             if (GameManager.ApplesEaten != 0)

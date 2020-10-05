@@ -11,6 +11,7 @@ namespace Duality_
 {
     public class DialogBox : Component, ICmpUpdatable, ICmpInitializable
     {
+        public float Modifier { get; set; } = 0.25f;
 
         void ICmpInitializable.OnActivate()
         {
@@ -29,6 +30,7 @@ namespace Duality_
             {
                 GameManager.SetGameState(GameManager.GAMESTATE.RUNNING);
                 GameManager.PlaySFX(GameManager.SoundType.buttonPress);
+                GameManager.sfx.Volume = GameManager.File.Res.sfxVol * 0.05f * Modifier;
                 Scene.RemoveObject(GameObj);
             }
         }

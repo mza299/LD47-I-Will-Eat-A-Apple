@@ -243,6 +243,10 @@
             <scale dataType="Float">1</scale>
             <scaleAbs dataType="Float">1</scaleAbs>
           </item>
+          <item dataType="Struct" type="Duality.Components.VelocityTracker" id="1953314078">
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">4177146907</gameobj>
+          </item>
           <item dataType="Struct" type="Duality.Components.Camera" id="1428566088">
             <active dataType="Bool">true</active>
             <clearColor dataType="Struct" type="Duality.Drawing.ColorRgba">
@@ -269,10 +273,6 @@
               <Y dataType="Float">0</Y>
             </targetRect>
             <visibilityMask dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="All" value="4294967295" />
-          </item>
-          <item dataType="Struct" type="Duality.Components.VelocityTracker" id="1953314078">
-            <active dataType="Bool">true</active>
-            <gameobj dataType="ObjectRef">4177146907</gameobj>
           </item>
           <item dataType="Struct" type="Duality.Components.SoundListener" id="1914832138">
             <active dataType="Bool">true</active>
@@ -829,6 +829,47 @@
       <name dataType="String">NM</name>
       <parent />
       <prefabLink />
+    </item>
+    <item dataType="Struct" type="Duality.GameObject" id="3110301518">
+      <active dataType="Bool">true</active>
+      <children />
+      <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3968143192">
+        <_items dataType="Array" type="Duality.Component[]" id="270189228" length="4">
+          <item dataType="Struct" type="Duality_.MusicFader" id="1361446966">
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">3110301518</gameobj>
+          </item>
+        </_items>
+        <_size dataType="Int">1</_size>
+      </compList>
+      <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="520283038" surrogate="true">
+        <header />
+        <body>
+          <keys dataType="Array" type="System.Object[]" id="2710703130">
+            <item dataType="Type" id="1874516352" value="Duality_.MusicFader" />
+          </keys>
+          <values dataType="Array" type="System.Object[]" id="1448926522">
+            <item dataType="ObjectRef">1361446966</item>
+          </values>
+        </body>
+      </compMap>
+      <compTransform />
+      <identifier dataType="Struct" type="System.Guid" surrogate="true">
+        <header>
+          <data dataType="Array" type="System.Byte[]" id="1440494234">rzY4Hl7MtEmCiEbHE5T2MA==</data>
+        </header>
+        <body />
+      </identifier>
+      <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+      <name dataType="String">MusicComp</name>
+      <parent />
+      <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="1741116932">
+        <changes />
+        <obj dataType="ObjectRef">3110301518</obj>
+        <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+          <contentPath dataType="String">Data\Prefabs\MusicComp.Prefab.res</contentPath>
+        </prefab>
+      </prefabLink>
     </item>
   </serializeObj>
   <visibilityStrategy dataType="Struct" type="Duality.Components.DefaultRendererVisibilityStrategy" id="2035693768" />

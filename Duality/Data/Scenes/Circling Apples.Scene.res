@@ -619,6 +619,10 @@
                   <scale dataType="Float">1</scale>
                   <scaleAbs dataType="Float">1</scaleAbs>
                 </item>
+                <item dataType="Struct" type="Duality.Components.VelocityTracker" id="1953314078">
+                  <active dataType="Bool">true</active>
+                  <gameobj dataType="ObjectRef">4177146907</gameobj>
+                </item>
                 <item dataType="Struct" type="Duality.Components.Camera" id="1428566088">
                   <active dataType="Bool">true</active>
                   <clearColor dataType="Struct" type="Duality.Drawing.ColorRgba">
@@ -645,10 +649,6 @@
                     <Y dataType="Float">0</Y>
                   </targetRect>
                   <visibilityMask dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="All" value="4294967295" />
-                </item>
-                <item dataType="Struct" type="Duality.Components.VelocityTracker" id="1953314078">
-                  <active dataType="Bool">true</active>
-                  <gameobj dataType="ObjectRef">4177146907</gameobj>
                 </item>
                 <item dataType="Struct" type="Duality.Components.SoundListener" id="1914832138">
                   <active dataType="Bool">true</active>
@@ -4176,6 +4176,60 @@
         <obj dataType="ObjectRef">4236116981</obj>
         <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
           <contentPath dataType="String">Data\Prefabs\AppleCirc.Prefab.res</contentPath>
+        </prefab>
+      </prefabLink>
+    </item>
+    <item dataType="Struct" type="Duality.GameObject" id="283182251">
+      <active dataType="Bool">true</active>
+      <children />
+      <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="343400921">
+        <_items dataType="Array" type="Duality.Component[]" id="3979766222" length="4">
+          <item dataType="Struct" type="Duality_.MusicFader" id="2829294995">
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">283182251</gameobj>
+          </item>
+        </_items>
+        <_size dataType="Int">1</_size>
+      </compList>
+      <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="875538944" surrogate="true">
+        <header />
+        <body>
+          <keys dataType="Array" type="System.Object[]" id="2147856115">
+            <item dataType="Type" id="2624263974" value="Duality_.MusicFader" />
+          </keys>
+          <values dataType="Array" type="System.Object[]" id="664695224">
+            <item dataType="ObjectRef">2829294995</item>
+          </values>
+        </body>
+      </compMap>
+      <compTransform />
+      <identifier dataType="Struct" type="System.Guid" surrogate="true">
+        <header>
+          <data dataType="Array" type="System.Byte[]" id="3886495257">zgfe7sjZn0OcoXTPipkn7Q==</data>
+        </header>
+        <body />
+      </identifier>
+      <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+      <name dataType="String">MusicComp</name>
+      <parent />
+      <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="4148565147">
+        <changes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2417160148">
+          <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2251271396" length="4">
+            <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+              <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="3896613064">
+                <_items dataType="Array" type="System.Int32[]" id="197704300"></_items>
+                <_size dataType="Int">0</_size>
+              </childIndex>
+              <componentType dataType="ObjectRef">2624263974</componentType>
+              <prop dataType="MemberInfo" id="1852236510" value="P:Duality_.MusicFader:Music" />
+              <val dataType="Enum" type="Duality_.GameManager+MusicType" name="Mad" value="1" />
+            </item>
+          </_items>
+          <_size dataType="Int">1</_size>
+        </changes>
+        <obj dataType="ObjectRef">283182251</obj>
+        <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+          <contentPath dataType="String">Data\Prefabs\MusicComp.Prefab.res</contentPath>
         </prefab>
       </prefabLink>
     </item>

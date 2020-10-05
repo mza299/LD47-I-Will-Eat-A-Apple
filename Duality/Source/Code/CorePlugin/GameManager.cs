@@ -12,6 +12,8 @@ using Duality.Audio;
 
 using static Duality.DualityApp;
 using static System.IO.Path;
+using Duality.IO;
+using System.IO;
 
 namespace Duality_
 {
@@ -32,6 +34,8 @@ namespace Duality_
         public static ContentRef<Material> PlayerStance;
 
         public static int ApplesEaten;
+
+        public static ContentRef<SaveFile> File;
 
         public static void SetGameState (GAMESTATE s)
         {
@@ -85,6 +89,18 @@ namespace Duality_
             }
         }
 
+        public static void GoToSettingsu()
+        {
+            var currentScene = Scene.Current;
+            var mainMenu = ContentProvider.RequestContent<Scene>(Combine(DataDirectory, "Scenes", "Settings.Scene.res"));
+            if (mainMenu != null)
+            {
+                //mainMenu.Res.Activate();
+                Scene.SwitchTo(mainMenu);
+                currentScene.Dispose();
+            }
+        }
+
         public static void EndScene()
         {
             var currentScene = Scene.Current;
@@ -97,25 +113,41 @@ namespace Duality_
             }
         }
 
-        static SoundInstance sfx = null;
+        public static SoundInstance sfx = null;
 
         static SoundInstance mus = null;
 
         public enum SoundType { buttonPress, eatApple, walking, applePhaseShift, drown, ping}
 
-        public enum MusicType { Happy, Mad, Haunting, Action}
+        public enum MusicType { Happy, Mad, Haunting, Boss, Unusual, Bell}
 
         public static void PlayMusic(MusicType musicType)
         {
             switch (musicType)
             {
                 case MusicType.Happy:
+                    var haps = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Waves.Sound.res"));
+                    BeginIntro(haps, 0.05f * File.Res.musicVol);
                     break;
                 case MusicType.Mad:
+                    var mad = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Anger.Sound.res"));
+                    BeginIntro(mad, 0.05f * File.Res.musicVol);
                     break;
                 case MusicType.Haunting:
+                    var h = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Haunting.Sound.res"));
+                    BeginIntro(h, 0.05f*File.Res.musicVol);
                     break;
-                case MusicType.Action:
+                case MusicType.Boss:
+                    var boss = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Boss.Sound.res"));
+                    BeginIntro(boss, 0.05f*File.Res.musicVol);
+                    break;
+                case MusicType.Unusual:
+                    var u = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Unusual.Sound.res"));
+                    BeginIntro(u, 0.05f*File.Res.musicVol);
+                    break;
+                case MusicType.Bell:
+                    var bl = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Bells.Sound.res"));
+                    BeginIntro(bl, 0.5f* File.Res.musicVol);
                     break;
                 default:
                     break;
@@ -156,20 +188,25 @@ namespace Duality_
         static void Player(ContentRef<Sound> s)
         {
             sfx = DualityApp.Sound.PlaySound(s);
+            sfx.Volume = File.Res.sfxVol * 0.05f;
             sfx.Looped = false;
         }
 
         static void Player(ContentRef<Sound> s, bool loopable)
         {
             sfx = DualityApp.Sound.PlaySound(s);
+            sfx.Volume = File.Res.sfxVol * 0.05f;
             sfx.Looped = loopable;
+            
         }
 
         static void Player(ContentRef<Sound> s, Random rnd)
         {
             sfx = DualityApp.Sound.PlaySound(s);
             sfx.Looped = false;
+            sfx.Volume = File.Res.sfxVol *0.05f;
             sfx.Pitch = rnd.NextFloat(0.4f, 0.8f);
+            
         }
 
         public static void FadeOutMusic()
@@ -199,5 +236,50 @@ namespace Duality_
                 mus.BeginFadeIn(5f);
             }
         }
+
+        public static void BeginIntro(ContentRef<Sound> _m, float vol)
+        {
+            FadeOutMusic();
+
+            //var intro = ContentProvider.RequestContent<Sound>(Combine(DualityApp.DataDirectory, "MainGame", "Sounds", "ForestOverworld.Sound.res"));
+            if (_m != null)
+            {
+                mus = DualityApp.Sound.PlaySound(_m);
+                mus.Looped = true;
+                mus.Volume = vol;
+                mus.BeginFadeIn(5f);
+            }
+        }
+
+        public static void SaveData()
+        {
+            string dataFile = Combine(DualityApp.DataDirectory, "SaveFile.SaveFile.res");
+
+            if (FileOp.Exists(dataFile))
+            {
+                using (Stream s = FileOp.Open(dataFile, FileAccessMode.Write))
+                {
+                    using (StreamWriter writer = new StreamWriter(s))
+                    {
+                        if (File != null)
+                            File.Res.Save(s);
+                    }
+                }
+            }
+        }
+
+        //public static void LoadingData()
+        //{
+        //    string dataFile = Combine(DualityApp.DataDirectory, "SaveFile.SaveFile.res");
+
+        //    if (FileOp.Exists(dataFile) == false)
+        //    {
+        //        FileOp.Create(dataFile);
+        //        ContentProvider.AddContent(dataFile, new SaveData());
+        //        _SaveData = ContentProvider.RequestContent<SaveData>(dataFile);
+        //    }
+        //    else
+        //        _SaveData = ContentProvider.RequestContent<SaveData>(dataFile);
+        //}
     }
 }

@@ -26,6 +26,7 @@ namespace Duality_
         void ICmpInitializable.OnActivate()
         {
             GameManager.ApplesEaten = 0;
+            GameManager.PlayMusic(GameManager.MusicType.Boss);
             if (File != null && sceneHolder != null)
             {
                 if (File.Res.FirstPlayed == false)
@@ -56,6 +57,9 @@ namespace Duality_
                 }
                 if (DualityApp.Keyboard.KeyHit(Key.Escape))
                     DualityApp.Terminate();
+
+                if (DualityApp.Keyboard.KeyHit(Key.S))
+                    GameManager.GoToSettingsu();
             }
     
         }

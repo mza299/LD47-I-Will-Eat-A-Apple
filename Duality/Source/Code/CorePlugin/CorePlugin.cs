@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 
 using Duality;
+using Duality.Resources;
+
+using static System.IO.Path;
 
 namespace Duality_
 {
@@ -20,6 +23,7 @@ namespace Duality_
             GameManager.SetGameState(GameManager.GAMESTATE.RUNNING);
             GameManager.DisObeyCount = 0;
             GameManager.PlayerPosition = new Vector3(-110, 175, 0);
+            GameManager.File = ContentProvider.RequestContent<SaveFile>(Combine(DualityApp.DataDirectory, "SaveFile.SaveFile.res"));
         }
     }
 }

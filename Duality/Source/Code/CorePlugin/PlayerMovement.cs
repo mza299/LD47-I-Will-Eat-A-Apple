@@ -66,22 +66,22 @@ namespace Duality_
             if (DualityApp.Keyboard.KeyPressed(Key.Right) || DualityApp.Keyboard.KeyPressed(Key.D))
             {
                 rb.LinearVelocity = Vector2.UnitX * Speed * /*Time.TimeMult*/ Time.DeltaTime;
-                wSound.Volume = 0.9f;
+                wSound.Volume = GameManager.File.Res.sfxVol * 0.05f;
             }
             if (DualityApp.Keyboard.KeyPressed(Key.Left) || DualityApp.Keyboard.KeyPressed(Key.A))
             {
                 rb.LinearVelocity = -Vector2.UnitX * Speed * /*Time.TimeMult*/ Time.DeltaTime;
-                wSound.Volume = 0.9f;
+                wSound.Volume = GameManager.File.Res.sfxVol * 0.05f;
             }
             if (DualityApp.Keyboard.KeyPressed(Key.Up) || DualityApp.Keyboard.KeyPressed(Key.W))
             {
                 rb.LinearVelocity = -Vector2.UnitY * Speed * /*Time.TimeMult*/ Time.DeltaTime;
-                wSound.Volume = 0.9f;
+                wSound.Volume = GameManager.File.Res.sfxVol * 0.05f;
             }
             if (DualityApp.Keyboard.KeyPressed(Key.Down) || DualityApp.Keyboard.KeyPressed(Key.S))
             {
                 rb.LinearVelocity = Vector2.UnitY * Speed * /*Time.TimeMult*/ Time.DeltaTime;
-                wSound.Volume = 0.9f;
+                wSound.Volume = GameManager.File.Res.sfxVol * 0.05f;
             }
         }
 
