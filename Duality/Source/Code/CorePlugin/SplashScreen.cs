@@ -49,9 +49,11 @@ namespace Duality_
                 GameManager.PlaySFX(GameManager.SoundType.Intro);
                 //rend.Active = true;
                 voiceBool = true;
+                rend.Active = true;
+                splatBool = true;
             }
 
-            if (splatPlays > 2.75f && splatBool == false)
+            if (splatPlays > 2.3f && splatBool == false)
             {
                 rend.Active = true;
                 splatBool = true;

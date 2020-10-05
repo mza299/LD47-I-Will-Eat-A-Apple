@@ -139,244 +139,25 @@
 [Core] Msg:   Assembly loaded: NVorbis 0.7.6.0
 [Core] Msg:   ...done!
 [Core] Msg: Assembly loaded: DualityPhysics 3.0.4.0
+[Core] Msg: Loading Resource 'Data\Scenes\Splash.Scene.res'
+[Core] Msg: Determining OpenGL rendering capabilities...
+[Core] Msg: Loading Resource 'Data\Sounds\itsMo.Sound.res'
+[Core] Msg:   Loading Resource 'Data\Sounds\itsMo.AudioData.res'
+[Core] Msg: Loading Resource 'Data\Sprites\studio logo2.Material.res'
+[Core] Msg:   Loading Resource 'Data\Sprites\studio logo2.Texture.res'
+[Core] Msg:     Loading Resource 'Data\Sprites\studio logo2.Pixmap.res'
+[Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Mask'...
+[Core] Msg:   Compiling Vertex shader 'Default\VertexShader\Minimal'...
+[Core] Msg:   Compiling Fragment shader 'Default\FragmentShader\Minimal'...
 [Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
 [Core] Msg: Loading Resource 'Data\Sounds\Boss.Sound.res'
 [Core] Msg:   Loading Resource 'Data\Sounds\Boss.AudioData.res'
 [Core] Msg: Loading Resource 'Data\Font\Symtext.Font.res'
-[Core] Msg: Determining OpenGL rendering capabilities...
 [Core] Msg: Loading Resource 'Data\Sprites\MenuApple.Material.res'
 [Core] Msg:   Loading Resource 'Data\Sprites\MenuApple.Texture.res'
 [Core] Msg:     Loading Resource 'Data\Sprites\MenuApple.Pixmap.res'
-[Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Mask'...
-[Core] Msg:   Compiling Vertex shader 'Default\VertexShader\Minimal'...
-[Core] Msg:   Compiling Fragment shader 'Default\FragmentShader\Minimal'...
 [Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\SharpAlpha'...
 [Core] Msg:   Compiling Fragment shader 'Default\FragmentShader\SharpAlpha'...
-[Core] Msg: Loading Resource 'Data\Sounds\buttonPress.Sound.res'
-[Core] Msg:   Loading Resource 'Data\Sounds\buttonPress.AudioData.res'
-[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Diagnostics\Bridges.Prefab.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\DialogBox.Prefab.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\MusicComp.Prefab.res'
-[Core] Msg: Loading Resource 'Data\Sounds\walking.Sound.res'
-[Core] Msg:   Loading Resource 'Data\Sounds\walking.AudioData.res'
-[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalk.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalk.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalk.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\Room.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\Room.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\Room.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\DialogBox.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\DialogBox.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\DialogBox.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkDown.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkDown.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkDown.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Scenes\Demo.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Diagnostics\SensorL.Prefab.res'
-[Core] Msg:     Assembly loaded: System.Security 4.0.0.0
-[Core] Msg:     Assembly loaded: System.Configuration 4.0.0.0
-[Core] Msg:     Assembly loaded: System.Data.SqlXml 4.0.0.0
-[Core] ERR:     Can't resolve Type 'LD46.Tag' in object Id 3012248890. Type not found.
-[Core] ERR:     Can't resolve Type 'LD46.Tag+ID'. Type not found.
-[Core] Wrn:     Missing or disposed Component in GameObject "SensorL". Check for serialization problems. Did you recently rename or remove classes?
-[Core] Msg:   Loading Resource 'Data\Prefabs\LadderTilesHorz.Prefab.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\Tree.Prefab.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\StaticApple.Prefab.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\Boundaries.Prefab.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\DialogFormat.Prefab.res'
-[Core] Msg: Loading Resource 'Data\Sounds\Waves.Sound.res'
-[Core] Msg:   Loading Resource 'Data\Sounds\Waves.AudioData.res'
-[Core] Msg: Loading Resource 'Data\Sprites\LadderTilesHorzLR.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\LadderTilesHorzLR.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\LadderTilesHorzLR.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\LandStatic.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\LandStatic.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\LandStatic.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\Tree.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\Tree.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\Tree.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\Apple.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\Apple.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\Apple.Pixmap.res'
-[Core] Msg: Loading Resource 'Data\Sprites\Waves.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\Waves.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\Waves.Pixmap.res'
-[Core] Msg: Compiling DrawTechnique 'Default\DrawTechnique\Add'...
-[Game] Msg: You have entered main area
-[Game] Msg: Count is now 1
-[Game] Msg: You have entered main area
-[Game] Msg: Going to next level and you will be spawned at (9.988473, -1908.733, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Multiple Apples.Scene.res'
-[Game] Msg: Count is now 2
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Count is now 1
-[Core] Msg: Loading Resource 'Data\Sprites\PlayerWalkUp.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\PlayerWalkUp.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\PlayerWalkUp.Pixmap.res'
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Going to next level and you will be spawned at (2355.419, 6.274814, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\DancingApple.Prefab.res'
-[Game] Msg: Count is now 2
-[Core] Msg: Loading Resource 'Data\Sounds\Haunting.Sound.res'
-[Core] Msg:   Loading Resource 'Data\Sounds\Haunting.AudioData.res'
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Count is now 1
-[Game] Msg: You have entered main area
-[Game] Msg: Going to next level and you will be spawned at (2355.419, 32.73621, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Dancing Apples Hard.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\Player0.Prefab.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\Glitch.Prefab.res'
-[Game] Msg: Count is now 2
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Core] Msg: Loading Resource 'Data\Sounds\eatApple.Sound.res'
-[Core] Msg:   Loading Resource 'Data\Sounds\eatApple.AudioData.res'
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Count is now 1
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Going to next level and you will be spawned at (33.90469, 1870.409, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\You are The Apple.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\PlayerAI.Prefab.res'
-[Game] Msg: Count is now 2
-[Core] Msg: Loading Resource 'Data\Sounds\Unusual.Sound.res'
-[Core] Msg:   Loading Resource 'Data\Sounds\Unusual.AudioData.res'
-[Game] Msg: You have entered main area
-[Core] Msg: Loading Resource 'Data\Sprites\PlayerLR.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\PlayerLR.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\PlayerLR.Pixmap.res'
-[Game] Msg: You have entered main area
-[Game] Msg: Count is now 1
-[Game] Msg: You have entered main area
-[Game] Msg: Going to next level and you will be spawned at (-6.095316, 1870.409, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Circling Apples.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\AppleCirc.Prefab.res'
-[Game] Msg: Count is now 2
-[Core] Msg: Loading Resource 'Data\Sounds\Anger.Sound.res'
-[Core] Msg:   Loading Resource 'Data\Sounds\Anger.AudioData.res'
-[Core] Msg: Loading Resource 'Data\Sprites\AppleCirc.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\AppleCirc.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\AppleCirc.Pixmap.res'
-[Game] Msg: You have entered main area
-[Game] Msg: Count is now 1
-[Game] Msg: You have entered main area
-[Game] Msg: Going to next level and you will be spawned at (2355.419, 51.12488, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Glitch + Multiple Apples.Scene.res'
-[Game] Msg: Count is now 2
-[Core] Msg: Loading Resource 'Data\Sprites\Glitch2.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\Glitch2.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\Glitch2.Pixmap.res'
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Count is now 1
-[Game] Msg: Your a WINNER :P
-[Game] Msg: You have entered main area
-[Game] Msg: Going to next level and you will be spawned at (2355.419, 51.12488, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Glitch + You are The Apple.Scene.res'
-[Game] Msg: Count is now 2
-[Core] Msg: Loading Resource 'Data\Prefabs\Puddle.Prefab.res'
-[Core] Msg: Loading Resource 'Data\Prefabs\PlayerAISpawner.Prefab.res'
-[Core] Msg: Loading Resource 'Data\Sprites\Puddle.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\Puddle.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\Puddle.Pixmap.res'
-[Game] Msg: You have entered main area
-[Game] Msg: Count is now 1
-[Game] Msg: You have entered main area
-[Game] Msg: Going to next level and you will be spawned at (17.46485, -1908.733, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Circling Apples and U R A Apple.Scene.res'
-[Game] Msg: Count is now 2
-[Game] Msg: Count is now 1
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Going to next level and you will be spawned at (2355.419, 10.47728, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Missing Island and Dancing Apples.Scene.res'
-[Game] Msg: Count is now 2
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Count is now 1
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Going to next level and you will be spawned at (42.24097, -1908.733, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Eyes and Dancing Apples Hard.Scene.res'
-[Core] Msg:   Loading Resource 'Data\Prefabs\Eyes.Prefab.res'
-[Game] Msg: Count is now 2
-[Game] Msg: You have entered main area
-[Core] Msg: Loading Resource 'Data\Sprites\Eyes.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\Eyes.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\Eyes.Pixmap.res'
-[Game] Msg: You have entered main area
-[Game] Msg: Count is now 1
-[Game] Msg: Your a WINNER :P
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Going to next level and you will be spawned at (-2289.327, 20.66719, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Apple Frenzy.Scene.res'
-[Game] Msg: Count is now 2
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Count is now 1
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Going to next level and you will be spawned at (-2289.327, 34.11353, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Apple Frenzy 2.Scene.res'
-[Game] Msg: Count is now 2
-[Game] Msg: Your a WINNER :P
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Count is now 1
-[Game] Msg: Your a WINNER :P
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Going to next level and you will be spawned at (13.32931, -1908.733, 0)
-[Core] Msg: Loading Resource 'Data\Scenes\Nightmare End.Scene.res'
-[Game] Msg: Count is now 2
-[Core] Msg: Loading Resource 'Data\Prefabs\NightMareApple.Prefab.res'
-[Core] Msg: Loading Resource 'Data\Scenes\End.Scene.res'
-[Game] Msg: You have entered main area
-[Core] Msg: Loading Resource 'Data\Sprites\BigApple.Material.res'
-[Core] Msg:   Loading Resource 'Data\Sprites\BigApple.Texture.res'
-[Core] Msg:     Loading Resource 'Data\Sprites\BigApple.Pixmap.res'
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Game] Msg: Your a WINNER :P
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: You have entered main area
-[Game] Msg: Your a WINNER :P
-[Game] Msg: You have entered main area
-[Core] Msg: Loading Resource 'Data\Scenes\Final.Scene.res'
-[Core] Msg: Loading Resource 'Data\Scenes\Room.Scene.res'
-[Core] Msg: Loading Resource 'Data\Scenes\MainMenu0.Scene.res'
 [Core] Msg: Loading Resource 'Data\Sounds\Boss.Sound.res'
 [Core] Msg:   Loading Resource 'Data\Sounds\Boss.AudioData.res'
 [Core] Msg: Shutting down OpenGL 2.1 (OpenTK)...
