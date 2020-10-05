@@ -99,10 +99,28 @@ namespace Duality_
 
         static SoundInstance sfx = null;
 
-        static SoundInstance sfxIntro = null;
+        static SoundInstance mus = null;
 
         public enum SoundType { buttonPress, eatApple, walking, applePhaseShift, drown, ping}
 
+        public enum MusicType { Happy, Mad, Haunting, Action}
+
+        public static void PlayMusic(MusicType musicType)
+        {
+            switch (musicType)
+            {
+                case MusicType.Happy:
+                    break;
+                case MusicType.Mad:
+                    break;
+                case MusicType.Haunting:
+                    break;
+                case MusicType.Action:
+                    break;
+                default:
+                    break;
+            }
+        }
 
         public static void PlaySFX(SoundType soundType)
         {
@@ -134,10 +152,17 @@ namespace Duality_
             }
 
         }
+
         static void Player(ContentRef<Sound> s)
         {
             sfx = DualityApp.Sound.PlaySound(s);
             sfx.Looped = false;
+        }
+
+        static void Player(ContentRef<Sound> s, bool loopable)
+        {
+            sfx = DualityApp.Sound.PlaySound(s);
+            sfx.Looped = loopable;
         }
 
         static void Player(ContentRef<Sound> s, Random rnd)
@@ -158,20 +183,20 @@ namespace Duality_
                     sound.FadeOut(1.5f);
                 }
             }
-            if (sfxIntro != null)
-                sfxIntro.FadeOut(1.5f);
+            if (mus != null)
+                mus.FadeOut(1.5f);
         }
 
-        public static void BeginIntro()
+        public static void BeginIntro(ContentRef<Sound> _m)
         {
             FadeOutMusic();
 
-            var intro = ContentProvider.RequestContent<Sound>(Combine(DualityApp.DataDirectory, "MainGame", "Sounds", "ForestOverworld.Sound.res"));
-            if (intro != null)
+            //var intro = ContentProvider.RequestContent<Sound>(Combine(DualityApp.DataDirectory, "MainGame", "Sounds", "ForestOverworld.Sound.res"));
+            if (_m != null)
             {
-                sfxIntro = DualityApp.Sound.PlaySound(intro);
-                sfxIntro.Looped = true;
-                sfxIntro.BeginFadeIn(5f);
+                mus = DualityApp.Sound.PlaySound(_m);
+                mus.Looped = true;
+                mus.BeginFadeIn(5f);
             }
         }
     }
