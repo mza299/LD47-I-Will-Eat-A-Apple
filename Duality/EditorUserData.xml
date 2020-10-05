@@ -4,8 +4,8 @@
     <Backups>true</Backups>
     <Autosaves>ThirtyMinutes</Autosaves>
     <FirstSession>false</FirstSession>
-    <ActiveDocumentIndex>1</ActiveDocumentIndex>
-    <LastOpenScene>Data\Scenes\Dancing Apples.Scene.res</LastOpenScene>
+    <ActiveDocumentIndex>0</ActiveDocumentIndex>
+    <LastOpenScene>Data\Scenes\Nightmare End.Scene.res</LastOpenScene>
     <StartWithLastScene>true</StartWithLastScene>
   </EditorApp>
   <Plugins>
@@ -184,6 +184,8 @@
             <NodeID>PropertiesDuality.Resources.Font/Import / Export SettingsDuality.Resources.Font/</NodeID>
             <NodeID>PropertiesDuality_.SaveFile/SaveFileDuality_.SaveFile/</NodeID>
             <NodeID>PropertiesDuality.GameObject/MainMenuDuality_.MainMenu/</NodeID>
+            <NodeID>PropertiesDuality.GameObject/RotatorDuality_.Rotator/</NodeID>
+            <NodeID>PropertiesDuality.GameObject/PlayerAIDuality_.PlayerAI/</NodeID>
           </ExpandedNodes>
         </ExpandState>
       </ObjectInspector>
@@ -199,7 +201,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--DockPanel configuration file. Author: Weifen Luo, all rights reserved.-->
 <!--!!! AUTOMATICALLY GENERATED FILE. DO NOT MODIFY !!!-->
-<DockPanel FormatVersion="1.0" DockLeftPortion="0.25" DockRightPortion="0.440885416666667" DockTopPortion="0.25" DockBottomPortion="0.25" ActiveDocumentPane="8" ActivePane="2">
+<DockPanel FormatVersion="1.0" DockLeftPortion="0.25" DockRightPortion="0.440885416666667" DockTopPortion="0.25" DockBottomPortion="0.25" ActiveDocumentPane="7" ActivePane="7">
   <Contents Count="9">
     <Content ID="0" PersistString="Duality.Editor.Plugins.CamView.CamView" AutoHidePortion="0.25" IsHidden="False" IsFloat="False" />
     <Content ID="1" PersistString="Duality.Editor.Plugins.ProjectView.ProjectFolderView" AutoHidePortion="0.440885416666667" IsHidden="False" IsFloat="False" />
@@ -274,7 +276,7 @@
     <DockWindow ID="2" DockState="DockRight" ZOrderIndex="1">
       <NestedPanes Count="4">
         <Pane ID="0" RefID="0" PrevPane="-1" Alignment="Bottom" Proportion="0.5" />
-        <Pane ID="1" RefID="3" PrevPane="0" Alignment="Right" Proportion="0.474739970282318" />
+        <Pane ID="1" RefID="3" PrevPane="0" Alignment="Right" Proportion="0.486627043090639" />
         <Pane ID="2" RefID="2" PrevPane="0" Alignment="Bottom" Proportion="0.443915343915344" />
         <Pane ID="3" RefID="4" PrevPane="3" Alignment="Top" Proportion="0.238904955880724" />
       </NestedPanes>

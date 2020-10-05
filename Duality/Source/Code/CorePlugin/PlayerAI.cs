@@ -81,7 +81,8 @@ namespace Duality_
         void ICmpUpdatable.OnUpdate()
         {
             //GameObj.Transform.MoveBy((PlayerTransform.Pos.Xy - GameObj.Transform.Pos.Xy) * Speed * Time.DeltaTime);
-            rb.LinearVelocity = (PlayerTransform.Pos.Xy - GameObj.Transform.Pos.Xy).Normalized * Speed * Time.DeltaTime;
+            if (GameManager.State == GameManager.GAMESTATE.RUNNING)
+                rb.LinearVelocity = (PlayerTransform.Pos.Xy - GameObj.Transform.Pos.Xy).Normalized * Speed * Time.DeltaTime;
         }
     }
 }

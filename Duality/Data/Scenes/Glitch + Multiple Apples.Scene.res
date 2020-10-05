@@ -3765,7 +3765,7 @@
               <_size dataType="Int">2</_size>
             </children>
             <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="4088302410">
-              <_items dataType="Array" type="Duality.Component[]" id="1863076300" length="4">
+              <_items dataType="Array" type="Duality.Component[]" id="1863076300">
                 <item dataType="Struct" type="Duality.Components.Transform" id="3710766768">
                   <active dataType="Bool">true</active>
                   <angle dataType="Float">0</angle>
@@ -3815,8 +3815,12 @@
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">3653489550</gameobj>
                 </item>
+                <item dataType="Struct" type="Duality_.Shake" id="3535581761">
+                  <active dataType="Bool">true</active>
+                  <gameobj dataType="ObjectRef">3653489550</gameobj>
+                </item>
               </_items>
-              <_size dataType="Int">3</_size>
+              <_size dataType="Int">4</_size>
             </compList>
             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3017913150" surrogate="true">
               <header />
@@ -3825,11 +3829,13 @@
                   <item dataType="ObjectRef">2961958432</item>
                   <item dataType="ObjectRef">27801942</item>
                   <item dataType="Type" id="4024483804" value="Duality_.DialogBox" />
+                  <item dataType="Type" id="1120196886" value="Duality_.Shake" />
                 </keys>
                 <values dataType="Array" type="System.Object[]" id="1638004622">
                   <item dataType="ObjectRef">3710766768</item>
                   <item dataType="ObjectRef">827141534</item>
                   <item dataType="ObjectRef">3415183948</item>
+                  <item dataType="ObjectRef">3535581761</item>
                 </values>
               </body>
             </compMap>
@@ -4015,7 +4021,7 @@
               <_size dataType="Int">2</_size>
             </children>
             <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="572210616">
-              <_items dataType="Array" type="Duality.Component[]" id="2498906647" length="4">
+              <_items dataType="Array" type="Duality.Component[]" id="2498906647">
                 <item dataType="Struct" type="Duality.Components.Transform" id="4211905691">
                   <active dataType="Bool">true</active>
                   <angle dataType="Float">0</angle>
@@ -4065,8 +4071,12 @@
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">4154628473</gameobj>
                 </item>
+                <item dataType="Struct" type="Duality_.Shake" id="4036720684">
+                  <active dataType="Bool">true</active>
+                  <gameobj dataType="ObjectRef">4154628473</gameobj>
+                </item>
               </_items>
-              <_size dataType="Int">3</_size>
+              <_size dataType="Int">4</_size>
             </compList>
             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1960811095" surrogate="true">
               <header />
@@ -4075,11 +4085,13 @@
                   <item dataType="ObjectRef">2961958432</item>
                   <item dataType="ObjectRef">27801942</item>
                   <item dataType="ObjectRef">4024483804</item>
+                  <item dataType="ObjectRef">1120196886</item>
                 </keys>
                 <values dataType="Array" type="System.Object[]" id="4097657782">
                   <item dataType="ObjectRef">4211905691</item>
                   <item dataType="ObjectRef">1328280457</item>
                   <item dataType="ObjectRef">3916322871</item>
+                  <item dataType="ObjectRef">4036720684</item>
                 </values>
               </body>
             </compMap>
@@ -4265,7 +4277,7 @@
               <_size dataType="Int">2</_size>
             </children>
             <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="1940698360">
-              <_items dataType="Array" type="Duality.Component[]" id="3331300087" length="4">
+              <_items dataType="Array" type="Duality.Component[]" id="3331300087">
                 <item dataType="Struct" type="Duality.Components.Transform" id="2422727035">
                   <active dataType="Bool">true</active>
                   <angle dataType="Float">0</angle>
@@ -4315,8 +4327,12 @@
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">2365449817</gameobj>
                 </item>
+                <item dataType="Struct" type="Duality_.Shake" id="2247542028">
+                  <active dataType="Bool">true</active>
+                  <gameobj dataType="ObjectRef">2365449817</gameobj>
+                </item>
               </_items>
-              <_size dataType="Int">3</_size>
+              <_size dataType="Int">4</_size>
             </compList>
             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3894084151" surrogate="true">
               <header />
@@ -4325,11 +4341,13 @@
                   <item dataType="ObjectRef">2961958432</item>
                   <item dataType="ObjectRef">27801942</item>
                   <item dataType="ObjectRef">4024483804</item>
+                  <item dataType="ObjectRef">1120196886</item>
                 </keys>
                 <values dataType="Array" type="System.Object[]" id="1067763510">
                   <item dataType="ObjectRef">2422727035</item>
                   <item dataType="ObjectRef">3834069097</item>
                   <item dataType="ObjectRef">2127144215</item>
+                  <item dataType="ObjectRef">2247542028</item>
                 </values>
               </body>
             </compMap>
@@ -4515,7 +4533,7 @@
               <_size dataType="Int">2</_size>
             </children>
             <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="4064163424">
-              <_items dataType="Array" type="Duality.Component[]" id="3435952357" length="4">
+              <_items dataType="Array" type="Duality.Component[]" id="3435952357">
                 <item dataType="Struct" type="Duality.Components.Transform" id="597878685">
                   <active dataType="Bool">true</active>
                   <angle dataType="Float">0</angle>
@@ -4565,8 +4583,12 @@
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">540601467</gameobj>
                 </item>
+                <item dataType="Struct" type="Duality_.Shake" id="422693678">
+                  <active dataType="Bool">true</active>
+                  <gameobj dataType="ObjectRef">540601467</gameobj>
+                </item>
               </_items>
-              <_size dataType="Int">3</_size>
+              <_size dataType="Int">4</_size>
             </compList>
             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1674406685" surrogate="true">
               <header />
@@ -4575,11 +4597,13 @@
                   <item dataType="ObjectRef">2961958432</item>
                   <item dataType="ObjectRef">27801942</item>
                   <item dataType="ObjectRef">4024483804</item>
+                  <item dataType="ObjectRef">1120196886</item>
                 </keys>
                 <values dataType="Array" type="System.Object[]" id="3486048022">
                   <item dataType="ObjectRef">597878685</item>
                   <item dataType="ObjectRef">2009220747</item>
                   <item dataType="ObjectRef">302295865</item>
+                  <item dataType="ObjectRef">422693678</item>
                 </values>
               </body>
             </compMap>
@@ -4765,7 +4789,7 @@
               <_size dataType="Int">2</_size>
             </children>
             <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2343392218">
-              <_items dataType="Array" type="Duality.Component[]" id="3487729572" length="4">
+              <_items dataType="Array" type="Duality.Component[]" id="3487729572">
                 <item dataType="Struct" type="Duality.Components.Transform" id="4192576536">
                   <active dataType="Bool">true</active>
                   <angle dataType="Float">0</angle>
@@ -4815,8 +4839,12 @@
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">4135299318</gameobj>
                 </item>
+                <item dataType="Struct" type="Duality_.Shake" id="4017391529">
+                  <active dataType="Bool">true</active>
+                  <gameobj dataType="ObjectRef">4135299318</gameobj>
+                </item>
               </_items>
-              <_size dataType="Int">3</_size>
+              <_size dataType="Int">4</_size>
             </compList>
             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2711936502" surrogate="true">
               <header />
@@ -4825,11 +4853,13 @@
                   <item dataType="ObjectRef">2961958432</item>
                   <item dataType="ObjectRef">27801942</item>
                   <item dataType="ObjectRef">4024483804</item>
+                  <item dataType="ObjectRef">1120196886</item>
                 </keys>
                 <values dataType="Array" type="System.Object[]" id="2288317006">
                   <item dataType="ObjectRef">4192576536</item>
                   <item dataType="ObjectRef">1308951302</item>
                   <item dataType="ObjectRef">3896993716</item>
+                  <item dataType="ObjectRef">4017391529</item>
                 </values>
               </body>
             </compMap>

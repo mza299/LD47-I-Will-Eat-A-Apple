@@ -4058,7 +4058,7 @@
                           <lineAlign dataType="Enum" type="Duality.Alignment" name="Left" value="1" />
                           <maxHeight dataType="Int">0</maxHeight>
                           <maxWidth dataType="Int">0</maxWidth>
-                          <sourceText dataType="String">I am H u n g r y</sourceText>
+                          <sourceText dataType="String">eat a apple</sourceText>
                           <wrapMode dataType="Enum" type="Duality.Drawing.FormattedText+WrapMode" name="Word" value="1" />
                         </text>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
@@ -4308,7 +4308,7 @@
                           <lineAlign dataType="Enum" type="Duality.Alignment" name="Left" value="1" />
                           <maxHeight dataType="Int">0</maxHeight>
                           <maxWidth dataType="Int">0</maxWidth>
-                          <sourceText dataType="String">I am H u n g r y</sourceText>
+                          <sourceText dataType="String">eat a apple</sourceText>
                           <wrapMode dataType="Enum" type="Duality.Drawing.FormattedText+WrapMode" name="Word" value="1" />
                         </text>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
@@ -4558,7 +4558,7 @@
                           <lineAlign dataType="Enum" type="Duality.Alignment" name="Left" value="1" />
                           <maxHeight dataType="Int">0</maxHeight>
                           <maxWidth dataType="Int">0</maxWidth>
-                          <sourceText dataType="String">I am H u n g r y</sourceText>
+                          <sourceText dataType="String">eat a apple</sourceText>
                           <wrapMode dataType="Enum" type="Duality.Drawing.FormattedText+WrapMode" name="Word" value="1" />
                         </text>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
@@ -4808,7 +4808,7 @@
                           <lineAlign dataType="Enum" type="Duality.Alignment" name="Left" value="1" />
                           <maxHeight dataType="Int">0</maxHeight>
                           <maxWidth dataType="Int">0</maxWidth>
-                          <sourceText dataType="String">I am H u n g r y</sourceText>
+                          <sourceText dataType="String">eat a apple</sourceText>
                           <wrapMode dataType="Enum" type="Duality.Drawing.FormattedText+WrapMode" name="Word" value="1" />
                         </text>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
@@ -5058,7 +5058,7 @@
                           <lineAlign dataType="Enum" type="Duality.Alignment" name="Left" value="1" />
                           <maxHeight dataType="Int">0</maxHeight>
                           <maxWidth dataType="Int">0</maxWidth>
-                          <sourceText dataType="String">I Will Eat a apple</sourceText>
+                          <sourceText dataType="String">eat a apple</sourceText>
                           <wrapMode dataType="Enum" type="Duality.Drawing.FormattedText+WrapMode" name="Word" value="1" />
                         </text>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />

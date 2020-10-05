@@ -20,13 +20,13 @@
             <gameobj dataType="ObjectRef">2445799173</gameobj>
             <ignoreParent dataType="Bool">false</ignoreParent>
             <pos dataType="Struct" type="Duality.Vector3">
-              <X dataType="Float">-196.000015</X>
-              <Y dataType="Float">131.274933</Y>
+              <X dataType="Float">345.999878</X>
+              <Y dataType="Float">240.274933</Y>
               <Z dataType="Float">0</Z>
             </pos>
             <posAbs dataType="Struct" type="Duality.Vector3">
-              <X dataType="Float">-196.000015</X>
-              <Y dataType="Float">131.274933</Y>
+              <X dataType="Float">345.999878</X>
+              <Y dataType="Float">240.274933</Y>
               <Z dataType="Float">0</Z>
             </posAbs>
             <scale dataType="Float">1</scale>
