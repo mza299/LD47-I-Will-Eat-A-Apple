@@ -28,6 +28,7 @@ namespace Duality_
             if (DualityApp.Keyboard.KeyHit(Key.Enter) || DualityApp.Keyboard.KeyHit(Key.Space))
             {
                 GameManager.SetGameState(GameManager.GAMESTATE.RUNNING);
+                GameManager.PlaySFX(GameManager.SoundType.buttonPress);
                 Scene.RemoveObject(GameObj);
             }
         }

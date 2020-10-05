@@ -8,6 +8,7 @@ using Duality;
 using Duality.Input;
 using Duality.Components.Physics;
 using Duality.Resources;
+using Duality.Audio;
 
 using static System.IO.Path;
 using static Duality.DualityApp;
@@ -24,6 +25,9 @@ namespace Duality_
         [DontSerialize]
         RigidBody rb;
 
+        [DontSerialize]
+        SoundInstance wSound;
+
         void ICmpInitializable.OnActivate()
         {
             rb = GameObj.GetComponent<RigidBody>();
@@ -32,6 +36,10 @@ namespace Duality_
             GameManager.SetGameState(GameManager.GAMESTATE.RUNNING);
             GameManager.DisObeyCount = 0;
             DualityApp.Keyboard.KeyDown += ExitPlan;
+            var w = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "walking.Sound.res"));
+            wSound = DualityApp.Sound.PlaySound(w);
+            wSound.Looped = true;
+            wSound.Volume = 0;
         }
 
         private void ExitPlan(object sender, KeyboardKeyEventArgs e)
@@ -54,23 +62,34 @@ namespace Duality_
 
         void Move()
         {
-            
+
             if (DualityApp.Keyboard.KeyPressed(Key.Right) || DualityApp.Keyboard.KeyPressed(Key.D))
+            {
                 rb.LinearVelocity = Vector2.UnitX * Speed * /*Time.TimeMult*/ Time.DeltaTime;
-
+                wSound.Volume = 0.9f;
+            }
             if (DualityApp.Keyboard.KeyPressed(Key.Left) || DualityApp.Keyboard.KeyPressed(Key.A))
+            {
                 rb.LinearVelocity = -Vector2.UnitX * Speed * /*Time.TimeMult*/ Time.DeltaTime;
-
+                wSound.Volume = 0.9f;
+            }
             if (DualityApp.Keyboard.KeyPressed(Key.Up) || DualityApp.Keyboard.KeyPressed(Key.W))
+            {
                 rb.LinearVelocity = -Vector2.UnitY * Speed * /*Time.TimeMult*/ Time.DeltaTime;
-
+                wSound.Volume = 0.9f;
+            }
             if (DualityApp.Keyboard.KeyPressed(Key.Down) || DualityApp.Keyboard.KeyPressed(Key.S))
+            {
                 rb.LinearVelocity = Vector2.UnitY * Speed * /*Time.TimeMult*/ Time.DeltaTime;
+                wSound.Volume = 0.9f;
+            }
         }
 
         void ICmpInitializable.OnDeactivate()
         {
             DualityApp.Keyboard.KeyDown -= ExitPlan;
+            wSound.Volume = 0;
+            wSound.Dispose();
         }
 
         void ICmpUpdatable.OnUpdate()
@@ -92,7 +111,10 @@ namespace Duality_
                 DualityApp.Keyboard.KeyReleased(Key.W) ||
                 DualityApp.Keyboard.KeyReleased(Key.Down) ||
                 DualityApp.Keyboard.KeyReleased(Key.S))
+            {
                 rb.LinearVelocity = Vector2.Zero;
+                wSound.Volume = 0;
+            }
         }
     }
 }

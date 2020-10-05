@@ -33,8 +33,12 @@ namespace Duality_
             if (args.CollideWith.ContainsTag() && args.CollideWith.HasID(Tag.ID.APPLE))
             {
                 Game.Write("Your a WINNER :P");
+                GameManager.PlaySFX(GameManager.SoundType.eatApple);
                 if (Scene.Name != "Nightmare")
+                {
+                    GameManager.ApplesEaten++;
                     GameManager.EndScene();
+                }
                 else
                     GameManager.GoToNextScene();
             }
@@ -48,6 +52,8 @@ namespace Duality_
                     Scene.AddObject(p);
                     GameObj.GetComponent<RigidBody>().LinearVelocity = Vector2.Zero;
                     GameObj.GetComponent<SpriteRenderer>().ColorTint = ColorRgba.TransparentWhite;
+                    GameManager.PlaySFX(GameManager.SoundType.drown);
+                    GameObj.AddComponent<ImminantEnd>();
                 }
             }
         }

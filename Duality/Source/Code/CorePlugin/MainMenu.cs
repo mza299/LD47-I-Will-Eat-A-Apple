@@ -25,6 +25,7 @@ namespace Duality_
 
         void ICmpInitializable.OnActivate()
         {
+            GameManager.ApplesEaten = 0;
             if (File != null && sceneHolder != null)
             {
                 if (File.Res.FirstPlayed == false)
@@ -49,8 +50,10 @@ namespace Duality_
             if (timer > 0.5f)
             {
                 if (DualityApp.Keyboard.KeyHit(Key.Enter))
+                {
+                    GameManager.PlaySFX(GameManager.SoundType.buttonPress);
                     GameManager.GoToNextScene();
-
+                }
                 if (DualityApp.Keyboard.KeyHit(Key.Escape))
                     DualityApp.Terminate();
             }

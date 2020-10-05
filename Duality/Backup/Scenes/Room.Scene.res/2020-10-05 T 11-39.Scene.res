@@ -243,10 +243,6 @@
             <scale dataType="Float">1</scale>
             <scaleAbs dataType="Float">1</scaleAbs>
           </item>
-          <item dataType="Struct" type="Duality.Components.VelocityTracker" id="1953314078">
-            <active dataType="Bool">true</active>
-            <gameobj dataType="ObjectRef">4177146907</gameobj>
-          </item>
           <item dataType="Struct" type="Duality.Components.Camera" id="1428566088">
             <active dataType="Bool">true</active>
             <clearColor dataType="Struct" type="Duality.Drawing.ColorRgba">
@@ -273,6 +269,10 @@
               <Y dataType="Float">0</Y>
             </targetRect>
             <visibilityMask dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="All" value="4294967295" />
+          </item>
+          <item dataType="Struct" type="Duality.Components.VelocityTracker" id="1953314078">
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">4177146907</gameobj>
           </item>
           <item dataType="Struct" type="Duality.Components.SoundListener" id="1914832138">
             <active dataType="Bool">true</active>
@@ -1137,12 +1137,8 @@
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">2878013</gameobj>
                 </item>
-                <item dataType="Struct" type="Duality_.RoomTxt" id="1798561435">
-                  <active dataType="Bool">true</active>
-                  <gameobj dataType="ObjectRef">2878013</gameobj>
-                </item>
               </_items>
-              <_size dataType="Int">3</_size>
+              <_size dataType="Int">2</_size>
             </compList>
             <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1556148664" surrogate="true">
               <header />
@@ -1150,12 +1146,10 @@
                 <keys dataType="Array" type="System.Object[]" id="3139826279">
                   <item dataType="ObjectRef">1388244388</item>
                   <item dataType="Type" id="3739081806" value="Duality.Components.Renderers.TextRenderer" />
-                  <item dataType="Type" id="17949258" value="Duality_.RoomTxt" />
                 </keys>
                 <values dataType="Array" type="System.Object[]" id="1138390656">
                   <item dataType="ObjectRef">60155231</item>
                   <item dataType="ObjectRef">885815667</item>
-                  <item dataType="ObjectRef">1798561435</item>
                 </values>
               </body>
             </compMap>

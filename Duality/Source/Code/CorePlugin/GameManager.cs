@@ -8,6 +8,7 @@ using Duality;
 using Duality.Components;
 using Duality.Resources;
 using Duality.Input;
+using Duality.Audio;
 
 using static Duality.DualityApp;
 using static System.IO.Path;
@@ -29,6 +30,8 @@ namespace Duality_
         public static Vector3 PlayerPosition;
 
         public static ContentRef<Material> PlayerStance;
+
+        public static int ApplesEaten;
 
         public static void SetGameState (GAMESTATE s)
         {
@@ -85,7 +88,7 @@ namespace Duality_
         public static void EndScene()
         {
             var currentScene = Scene.Current;
-            var mainMenu = ContentProvider.RequestContent<Scene>(Combine(DataDirectory, "Scenes", "End Menu.Scene.res"));
+            var mainMenu = ContentProvider.RequestContent<Scene>(Combine(DataDirectory, "Scenes", "Room.Scene.res"));
             if (mainMenu != null)
             {
                 //mainMenu.Res.Activate();
@@ -94,5 +97,82 @@ namespace Duality_
             }
         }
 
+        static SoundInstance sfx = null;
+
+        static SoundInstance sfxIntro = null;
+
+        public enum SoundType { buttonPress, eatApple, walking, applePhaseShift, drown, ping}
+
+
+        public static void PlaySFX(SoundType soundType)
+        {
+            Random r = new Random(Time.GameTimer.Milliseconds);
+            switch (soundType)
+            {
+                case SoundType.buttonPress:
+                    var bp = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "buttonPress.Sound.res"));
+                    Player(bp, r);
+                    break;
+                case SoundType.eatApple:
+                    var ea = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "eatApple.Sound.res"));
+                    Player(ea, r);
+                    break;
+                case SoundType.walking:
+                    var w = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "walking.Sound.res"));
+                    Player(w);
+                    break;
+                case SoundType.applePhaseShift:
+                    break;
+                case SoundType.drown:
+                    var dr = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "drown.Sound.res"));
+                    Player(dr);
+                    break;
+                case SoundType.ping:
+                    break;
+                default:
+                    break;
+            }
+
+        }
+        static void Player(ContentRef<Sound> s)
+        {
+            sfx = DualityApp.Sound.PlaySound(s);
+            sfx.Looped = false;
+        }
+
+        static void Player(ContentRef<Sound> s, Random rnd)
+        {
+            sfx = DualityApp.Sound.PlaySound(s);
+            sfx.Looped = false;
+            sfx.Pitch = rnd.NextFloat(0.4f, 0.8f);
+        }
+
+        public static void FadeOutMusic()
+        {
+            if (sfx != null)
+            {
+                var sounds = DualityApp.Sound.Playing.ToArray();
+                foreach (var sound in sounds)
+                {
+                    sound.Looped = false;
+                    sound.FadeOut(1.5f);
+                }
+            }
+            if (sfxIntro != null)
+                sfxIntro.FadeOut(1.5f);
+        }
+
+        public static void BeginIntro()
+        {
+            FadeOutMusic();
+
+            var intro = ContentProvider.RequestContent<Sound>(Combine(DualityApp.DataDirectory, "MainGame", "Sounds", "ForestOverworld.Sound.res"));
+            if (intro != null)
+            {
+                sfxIntro = DualityApp.Sound.PlaySound(intro);
+                sfxIntro.Looped = true;
+                sfxIntro.BeginFadeIn(5f);
+            }
+        }
     }
 }
