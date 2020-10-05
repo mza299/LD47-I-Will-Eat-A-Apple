@@ -53,7 +53,7 @@ namespace Duality_
 
         void Walking()
         {
-            if (Keyboard.KeyHit(Key.Right) || Keyboard.KeyHit(Key.D))
+            if (Keyboard.KeyHit(Key.Right) || Keyboard.KeyHit(Key.D) || Gamepads[0].ButtonHit(GamepadButton.DPadRight))
             {
                 rend.Flip = SpriteRenderer.FlipMode.None;
                 rend.SpriteIndex = 0;
@@ -61,7 +61,7 @@ namespace Duality_
                 rend.SharedMaterial = WalkingH;
             }
 
-            if (Keyboard.KeyHit(Key.Left) || Keyboard.KeyHit(Key.A))
+            if (Keyboard.KeyHit(Key.Left) || Keyboard.KeyHit(Key.A) || Gamepads[0].ButtonHit(GamepadButton.DPadLeft))
             {
                 rend.Flip = SpriteRenderer.FlipMode.Horizontal;
                 rend.SpriteIndex = 0;
@@ -69,7 +69,7 @@ namespace Duality_
                 rend.SharedMaterial = WalkingH;
             }
 
-            if (Keyboard.KeyHit(Key.Down) || Keyboard.KeyHit(Key.S))
+            if (Keyboard.KeyHit(Key.Down) || Keyboard.KeyHit(Key.S) || Gamepads[0].ButtonHit(GamepadButton.DPadDown))
             {
                 rend.Flip = SpriteRenderer.FlipMode.None;
                 rend.SpriteIndex = 0;
@@ -77,7 +77,7 @@ namespace Duality_
                 rend.SharedMaterial = WalkingDown;
             }
 
-           if (Keyboard.KeyHit(Key.Up) || Keyboard.KeyHit(Key.W))
+           if (Keyboard.KeyHit(Key.Up) || Keyboard.KeyHit(Key.W) || Gamepads[0].ButtonHit(GamepadButton.DPadUp))
             {
                 rend.Flip = SpriteRenderer.FlipMode.None;
                 rend.SpriteIndex = 0;

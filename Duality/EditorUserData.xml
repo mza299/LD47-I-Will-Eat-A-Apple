@@ -5,7 +5,7 @@
     <Autosaves>ThirtyMinutes</Autosaves>
     <FirstSession>false</FirstSession>
     <ActiveDocumentIndex>1</ActiveDocumentIndex>
-    <LastOpenScene>Data\Scenes\Settings.Scene.res</LastOpenScene>
+    <LastOpenScene>Data\Scenes\Splash.Scene.res</LastOpenScene>
     <StartWithLastScene>true</StartWithLastScene>
   </EditorApp>
   <Plugins>
@@ -147,7 +147,7 @@
         <AutoRefresh>true</AutoRefresh>
         <Locked>false</Locked>
         <TitleText>Object Inspector</TitleText>
-        <DebugMode>true</DebugMode>
+        <DebugMode>false</DebugMode>
         <SortByName>true</SortByName>
         <ExpandState>
           <ExpandedNodes>
@@ -193,6 +193,7 @@
             <NodeID>PropertiesDuality.GameObject/MusicFaderDuality_.MusicFader/</NodeID>
             <NodeID>PropertiesDuality.GameObject/SettingsDuality_.Settings/</NodeID>
             <NodeID>PropertiesDuality.GameObject/SettingsDuality_.Settings/OptionsSystem.Collections.Generic.List`1[Duality.Components.Renderers.TextRenderer]/</NodeID>
+            <NodeID>PropertiesDuality.GameObject/DialogBoxDuality_.DialogBox/</NodeID>
           </ExpandedNodes>
         </ExpandState>
       </ObjectInspector>

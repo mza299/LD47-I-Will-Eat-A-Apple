@@ -50,7 +50,7 @@ namespace Duality_
             timer += Time.DeltaTime;
             if (timer > 0.5f)
             {
-                if (DualityApp.Keyboard.KeyHit(Key.Enter))
+                if (DualityApp.Keyboard.KeyHit(Key.Enter) || DualityApp.Gamepads[0].ButtonHit(GamepadButton.A))
                 {
                     GameManager.PlaySFX(GameManager.SoundType.buttonPress);
                     GameManager.GoToNextScene();
@@ -58,7 +58,7 @@ namespace Duality_
                 if (DualityApp.Keyboard.KeyHit(Key.Escape))
                     DualityApp.Terminate();
 
-                if (DualityApp.Keyboard.KeyHit(Key.S))
+                if (DualityApp.Keyboard.KeyHit(Key.S) || DualityApp.Gamepads[0].ButtonHit(GamepadButton.Y))
                     GameManager.GoToSettingsu();
             }
     

@@ -75,6 +75,7 @@
     <Compile Include="Settings.cs" />
     <Compile Include="Shake.cs" />
     <Compile Include="Spawner.cs" />
+    <Compile Include="SplashScreen.cs" />
     <Compile Include="Tag.cs" />
     <Compile Include="Tag_Extension.cs" />
   </ItemGroup>

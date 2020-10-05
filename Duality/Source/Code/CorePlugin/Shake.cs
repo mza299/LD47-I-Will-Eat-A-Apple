@@ -13,7 +13,7 @@ namespace Duality_
     {
         void ICmpUpdatable.OnUpdate()
         {
-            GameObj.Transform.Angle = MathF.Sin(Time.DeltaTime);
+            GameObj.Transform.Angle = MathF.Sin(Time.DeltaTime * 10f);
         }
     }
 }

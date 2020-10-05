@@ -25,7 +25,7 @@ namespace Duality_
 
         public static int DisObeyCount;
 
-        public static int DisobeyIncrement = 2;
+        public static int DisobeyIncrement = 1;
 
         public static bool EnteredMainArea;
 
@@ -36,6 +36,8 @@ namespace Duality_
         public static int ApplesEaten;
 
         public static ContentRef<SaveFile> File;
+
+        static float Vol = 1f;
 
         public static void SetGameState (GAMESTATE s)
         {
@@ -117,7 +119,7 @@ namespace Duality_
 
         static SoundInstance mus = null;
 
-        public enum SoundType { buttonPress, eatApple, walking, applePhaseShift, drown, ping}
+        public enum SoundType { buttonPress, eatApple, walking, applePhaseShift, drown, ping, Intro}
 
         public enum MusicType { Happy, Mad, Haunting, Boss, Unusual, Bell}
 
@@ -127,27 +129,27 @@ namespace Duality_
             {
                 case MusicType.Happy:
                     var haps = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Waves.Sound.res"));
-                    BeginIntro(haps, 0.05f * File.Res.musicVol);
+                    BeginIntro(haps, Vol * File.Res.musicVol);
                     break;
                 case MusicType.Mad:
                     var mad = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Anger.Sound.res"));
-                    BeginIntro(mad, 0.05f * File.Res.musicVol);
+                    BeginIntro(mad, Vol * File.Res.musicVol);
                     break;
                 case MusicType.Haunting:
                     var h = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Haunting.Sound.res"));
-                    BeginIntro(h, 0.05f*File.Res.musicVol);
+                    BeginIntro(h, Vol * File.Res.musicVol);
                     break;
                 case MusicType.Boss:
                     var boss = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Boss.Sound.res"));
-                    BeginIntro(boss, 0.05f*File.Res.musicVol);
+                    BeginIntro(boss, Vol * File.Res.musicVol);
                     break;
                 case MusicType.Unusual:
                     var u = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Unusual.Sound.res"));
-                    BeginIntro(u, 0.05f*File.Res.musicVol);
+                    BeginIntro(u, Vol * File.Res.musicVol);
                     break;
                 case MusicType.Bell:
                     var bl = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "Bells.Sound.res"));
-                    BeginIntro(bl, 0.5f* File.Res.musicVol);
+                    BeginIntro(bl, Vol * File.Res.musicVol);
                     break;
                 default:
                     break;
@@ -180,7 +182,12 @@ namespace Duality_
                 case SoundType.ping:
                     break;
                 default:
-                    break;
+                break;
+                case SoundType.Intro:
+                    var i = ContentProvider.RequestContent<Sound>(Combine(DataDirectory, "Sounds", "itsMo.Sound.res"));
+                    Player(i);
+                    
+                break;
             }
 
         }
@@ -188,14 +195,14 @@ namespace Duality_
         static void Player(ContentRef<Sound> s)
         {
             sfx = DualityApp.Sound.PlaySound(s);
-            sfx.Volume = File.Res.sfxVol * 0.05f;
+            sfx.Volume = File.Res.sfxVol * Vol;
             sfx.Looped = false;
         }
 
         static void Player(ContentRef<Sound> s, bool loopable)
         {
             sfx = DualityApp.Sound.PlaySound(s);
-            sfx.Volume = File.Res.sfxVol * 0.05f;
+            sfx.Volume = File.Res.sfxVol * Vol;
             sfx.Looped = loopable;
             
         }
@@ -204,7 +211,7 @@ namespace Duality_
         {
             sfx = DualityApp.Sound.PlaySound(s);
             sfx.Looped = false;
-            sfx.Volume = File.Res.sfxVol *0.05f;
+            sfx.Volume = File.Res.sfxVol * Vol;
             sfx.Pitch = rnd.NextFloat(0.4f, 0.8f);
             
         }

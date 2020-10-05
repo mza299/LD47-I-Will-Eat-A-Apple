@@ -48,7 +48,15 @@ namespace Duality_
             Timer += Time.DeltaTime;
             if (Timer > 3f)
             {
-                GameManager.GoToNextScene(ChosenScene);
+                if (Scene.Name == "End")
+                    GameManager.GoToNextScene(ChosenScene);
+                else
+                {
+                    if (GameManager.File.Res.Restarts == false)
+                        GameManager.GoToNextScene(ChosenScene);
+                    else
+                        Scene.Reload();
+                }
             }
         }
     }

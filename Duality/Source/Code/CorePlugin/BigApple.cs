@@ -75,7 +75,7 @@ namespace Duality_
         {
             if (EnableSway)
             {
-                Cam.Transform.Angle = MathF.Sin(Time.DeltaTime);
+                Cam.Transform.Angle = MathF.Sin(Time.DeltaTime*10f);
             }
         }
 

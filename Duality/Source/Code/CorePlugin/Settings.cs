@@ -12,7 +12,7 @@ using Duality.Input;
 
 namespace Duality_
 {
-    public class Settings : Component, ICmpUpdatable, ICmpInitializable
+    public class Settings : Component, ICmpInitializable
     {
         [DontSerialize]
         int index = 0;
@@ -28,6 +28,9 @@ namespace Duality_
         [DontSerialize]
         const string INV = "Invincibility Mode : ";
 
+        [DontSerialize]
+        const string RS = "Restarts : ";
+
         void ICmpInitializable.OnActivate()
         {
             if (Options[index] != null)
@@ -37,6 +40,121 @@ namespace Duality_
             }
             DualityApp.Keyboard.KeyDown += Selection;
             DualityApp.Keyboard.KeyDown += Adjustment;
+            DualityApp.Gamepads[0].ButtonDown += GSelection;
+            DualityApp.Gamepads[0].ButtonDown += GAdjustment;
+        }
+
+        private void GAdjustment(object sender, GamepadButtonEventArgs e)
+        {
+            if (e.Button == GamepadButton.DPadRight)
+            {
+                switch (index)
+                {
+                    //music vol
+                    case 0:
+                        if (GameManager.File.Res.musicVol < 1)
+                        {
+                            GameManager.File.Res.musicVol += 0.1f;
+                            Options[0].Text.SourceText = MUS + MathF.Round(GameManager.File.Res.musicVol, 1);
+                        }
+                        break;
+                    //sfx
+                    case 1:
+                        if (GameManager.File.Res.sfxVol < 1)
+                        {
+                            GameManager.File.Res.sfxVol += 0.1f;
+                            Options[1].Text.SourceText = SFX + MathF.Round(GameManager.File.Res.sfxVol, 1);
+                        }
+                        break;
+                    //inv
+                    case 2:
+                        GameManager.File.Res.Invincible = !GameManager.File.Res.Invincible;
+                        if (GameManager.File.Res.Invincible)
+                            Options[2].Text.SourceText = INV + "ON";
+                        else
+                            Options[2].Text.SourceText = INV + "OFF";
+                        break;
+                    case 3:
+                        GameManager.File.Res.Restarts = !GameManager.File.Res.Restarts;
+                        if (GameManager.File.Res.Restarts)
+                            Options[3].Text.SourceText = RS + "ON";
+                        else
+                            Options[3].Text.SourceText = RS + "OFF";
+                        break;
+                        
+                    default:
+                        break;
+                }
+                GameManager.SaveData();
+
+            }
+
+            if (e.Button == GamepadButton.DPadLeft)
+            {
+                switch (index)
+                {
+                    //music vol
+                    case 0:
+                        if (GameManager.File.Res.musicVol > 0)
+                        {
+                            GameManager.File.Res.musicVol -= 0.1f;
+                            Options[0].Text.SourceText = MUS + MathF.Round(GameManager.File.Res.musicVol, 1);
+                        }
+                        break;
+                    //sfx
+                    case 1:
+                        if (GameManager.File.Res.sfxVol > 0)
+                        {
+                            GameManager.File.Res.sfxVol -= 0.1f;
+                            Options[1].Text.SourceText = SFX + MathF.Round(GameManager.File.Res.sfxVol, 1);
+                        }
+                        break;
+                    //inv
+                    case 2:
+                        GameManager.File.Res.Invincible = !GameManager.File.Res.Invincible;
+                        if (GameManager.File.Res.Invincible)
+                            Options[2].Text.SourceText = INV + "ON";
+                        else
+                            Options[2].Text.SourceText = INV + "OFF";
+                        break;
+                    case 3:
+                        GameManager.File.Res.Restarts = !GameManager.File.Res.Restarts;
+                        if (GameManager.File.Res.Restarts)
+                            Options[3].Text.SourceText = RS + "ON";
+                        else
+                            Options[3].Text.SourceText = RS + "OFF";
+                        break;
+                    default:
+                        break;
+                }
+                GameManager.SaveData();
+            }
+
+            if (e.Button == GamepadButton.Y)
+                GameManager.GoToMainMenu();
+        }
+
+        private void GSelection(object sender, GamepadButtonEventArgs e)
+        {
+            if (e.Button == GamepadButton.DPadDown)
+            {
+                if (index + 1 < Options.Count)
+                    index++;
+                else
+                    index = 0;
+
+                ColorTxtRender();
+            }
+
+            if (e.Button == GamepadButton.DPadUp)
+            {
+                if (index - 1 < 0)
+                    index = Options.Count - 1;
+                else
+                    index--;
+
+                ColorTxtRender();
+            }
         }
 
         void InitialiseTxt()
@@ -47,6 +165,11 @@ namespace Duality_
                 Options[2].Text.SourceText = INV + "ON";
             else
                 Options[2].Text.SourceText = INV + "OFF";
+
+            if (GameManager.File.Res.Restarts)
+                Options[3].Text.SourceText = RS + "ON";
+            else
+                Options[3].Text.SourceText = RS + "ON";
 
         }
 
@@ -61,7 +184,7 @@ namespace Duality_
                         if (GameManager.File.Res.musicVol < 1)
                         {
                             GameManager.File.Res.musicVol += 0.1f;
-                            Options[0].Text.SourceText = MUS + GameManager.File.Res.musicVol.ToString();
+                            Options[0].Text.SourceText = MUS + MathF.Round(GameManager.File.Res.musicVol, 1);
                         }
                         break;
                         //sfx
@@ -69,7 +192,7 @@ namespace Duality_
                         if (GameManager.File.Res.sfxVol < 1)
                         {
                             GameManager.File.Res.sfxVol += 0.1f;
-                            Options[1].Text.SourceText = SFX + GameManager.File.Res.sfxVol.ToString();
+                            Options[1].Text.SourceText = SFX + MathF.Round(GameManager.File.Res.sfxVol, 1);
                         }
                         break;
                         //inv
@@ -79,6 +202,13 @@ namespace Duality_
                             Options[2].Text.SourceText = INV + "ON";
                         else
                             Options[2].Text.SourceText = INV + "OFF";
+                        break;
+                    case 3:
+                        GameManager.File.Res.Restarts = !GameManager.File.Res.Restarts;
+                        if (GameManager.File.Res.Restarts)
+                            Options[3].Text.SourceText = RS + "ON";
+                        else
+                            Options[3].Text.SourceText = RS + "OFF";
                         break;
                     default:
                         break;
@@ -96,7 +226,7 @@ namespace Duality_
                         if (GameManager.File.Res.musicVol > 0)
                         {
                             GameManager.File.Res.musicVol -= 0.1f;
-                            Options[0].Text.SourceText = MUS + GameManager.File.Res.musicVol.ToString();
+                            Options[0].Text.SourceText = MUS + MathF.Round(GameManager.File.Res.musicVol, 1);
                         }
                         break;
                     //sfx
@@ -104,7 +234,7 @@ namespace Duality_
                         if (GameManager.File.Res.sfxVol > 0)
                         {
                             GameManager.File.Res.sfxVol -= 0.1f;
-                            Options[1].Text.SourceText = SFX + GameManager.File.Res.sfxVol.ToString();
+                            Options[1].Text.SourceText = SFX + MathF.Round(GameManager.File.Res.sfxVol, 1);
                         }
                         break;
                     //inv
@@ -114,6 +244,13 @@ namespace Duality_
                             Options[2].Text.SourceText = INV + "ON";
                         else
                             Options[2].Text.SourceText = INV + "OFF";
+                        break;
+                    case 3:
+                        GameManager.File.Res.Restarts = !GameManager.File.Res.Restarts;
+                        if (GameManager.File.Res.Restarts)
+                            Options[3].Text.SourceText = RS + "ON";
+                        else
+                            Options[3].Text.SourceText = RS + "OFF";
                         break;
                     default:
                         break;
@@ -162,11 +299,8 @@ namespace Duality_
         {
             DualityApp.Keyboard.KeyDown -= Selection;
             DualityApp.Keyboard.KeyDown -= Adjustment;
-        }
-
-        void ICmpUpdatable.OnUpdate()
-        {
-            
+            DualityApp.Gamepads[0].ButtonDown -= GSelection;
+            DualityApp.Gamepads[0].ButtonDown -= GAdjustment;
         }
     }
 }

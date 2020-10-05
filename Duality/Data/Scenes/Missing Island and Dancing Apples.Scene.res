@@ -604,11 +604,11 @@
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">4177146907</gameobj>
                 </item>
-                <item dataType="Struct" type="Duality.Components.VelocityTracker" id="1953314078">
+                <item dataType="Struct" type="Duality.Components.Camera" id="1428566088">
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">4177146907</gameobj>
                 </item>
-                <item dataType="Struct" type="Duality.Components.Camera" id="1428566088">
+                <item dataType="Struct" type="Duality.Components.VelocityTracker" id="1953314078">
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">4177146907</gameobj>
                 </item>
@@ -4286,6 +4286,7 @@
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality_.DialogBox" id="3664804035">
+                  <_x003C_Modifier_x003E_k__BackingField dataType="Float">0.25</_x003C_Modifier_x003E_k__BackingField>
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">3903109637</gameobj>
                 </item>
@@ -4455,6 +4456,7 @@
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality_.DialogBox" id="3772413791">
+                  <_x003C_Modifier_x003E_k__BackingField dataType="Float">0.25</_x003C_Modifier_x003E_k__BackingField>
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">4010719393</gameobj>
                 </item>
@@ -4624,6 +4626,7 @@
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality_.DialogBox" id="2605123645">
+                  <_x003C_Modifier_x003E_k__BackingField dataType="Float">0.25</_x003C_Modifier_x003E_k__BackingField>
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">2843429247</gameobj>
                 </item>
@@ -4793,6 +4796,7 @@
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality_.DialogBox" id="2532163486">
+                  <_x003C_Modifier_x003E_k__BackingField dataType="Float">0.25</_x003C_Modifier_x003E_k__BackingField>
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">2770469088</gameobj>
                 </item>
@@ -4962,6 +4966,7 @@
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
                 <item dataType="Struct" type="Duality_.DialogBox" id="3776095621">
+                  <_x003C_Modifier_x003E_k__BackingField dataType="Float">0.25</_x003C_Modifier_x003E_k__BackingField>
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">4014401223</gameobj>
                 </item>
@@ -5064,7 +5069,7 @@
               </childIndex>
               <componentType dataType="ObjectRef">78297644</componentType>
               <prop dataType="MemberInfo" id="2513469150" value="P:Duality_.MusicFader:Music" />
-              <val dataType="Enum" type="Duality_.GameManager+MusicType" name="Bell" value="5" />
+              <val dataType="Enum" type="Duality_.GameManager+MusicType" name="Haunting" value="2" />
             </item>
           </_items>
           <_size dataType="Int">1</_size>

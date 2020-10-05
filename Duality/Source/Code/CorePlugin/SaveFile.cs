@@ -18,5 +18,7 @@ namespace Duality_
         public float sfxVol { get; set; }
 
         public float musicVol { get; set; }
+
+        public bool Restarts { get; set; }
     }
 }

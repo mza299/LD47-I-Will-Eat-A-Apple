@@ -26,7 +26,7 @@ namespace Duality_
         void ICmpUpdatable.OnUpdate()
         {
             GameManager.SetGameState(GameManager.GAMESTATE.PAUSED);
-            if (DualityApp.Keyboard.KeyHit(Key.Enter) || DualityApp.Keyboard.KeyHit(Key.Space))
+            if (DualityApp.Keyboard.KeyHit(Key.Enter) || DualityApp.Keyboard.KeyHit(Key.Space) || DualityApp.Gamepads[0].ButtonHit(GamepadButton.A))
             {
                 GameManager.SetGameState(GameManager.GAMESTATE.RUNNING);
                 GameManager.PlaySFX(GameManager.SoundType.buttonPress);

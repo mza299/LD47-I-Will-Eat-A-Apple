@@ -36,12 +36,24 @@ namespace Duality_
                 GameManager.PlaySFX(GameManager.SoundType.eatApple);
                 if (Scene.Name != "Nightmare")
                 {
-                    GameManager.ApplesEaten++;
-                    GameManager.EndScene();
+                    if (GameManager.File.Res.Restarts == true)
+                    {
+                        Scene.Reload();
+                    }
+                    if (GameManager.File.Res.Invincible == false)
+                    {
+                        if (GameManager.File.Res.Restarts == false)
+                        {
+                            GameManager.ApplesEaten++;
+                            GameManager.EndScene();
+                        }
+                        else
+                            Scene.Reload();
+                    }
                 }
                 else
                 {
-                    if (GameManager.File.Res.Invincible == false)
+                    
                         GameManager.GoToNextScene();
                 }
             }

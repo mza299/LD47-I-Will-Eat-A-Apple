@@ -63,22 +63,22 @@ namespace Duality_
         void Move()
         {
 
-            if (DualityApp.Keyboard.KeyPressed(Key.Right) || DualityApp.Keyboard.KeyPressed(Key.D))
+            if (DualityApp.Keyboard.KeyPressed(Key.Right) || DualityApp.Keyboard.KeyPressed(Key.D) || DualityApp.Gamepads[0].ButtonHit(GamepadButton.DPadRight))
             {
                 rb.LinearVelocity = Vector2.UnitX * Speed * /*Time.TimeMult*/ Time.DeltaTime;
                 wSound.Volume = GameManager.File.Res.sfxVol * 0.05f;
             }
-            if (DualityApp.Keyboard.KeyPressed(Key.Left) || DualityApp.Keyboard.KeyPressed(Key.A))
+            if (DualityApp.Keyboard.KeyPressed(Key.Left) || DualityApp.Keyboard.KeyPressed(Key.A) || Gamepads[0].ButtonHit(GamepadButton.DPadLeft))
             {
                 rb.LinearVelocity = -Vector2.UnitX * Speed * /*Time.TimeMult*/ Time.DeltaTime;
                 wSound.Volume = GameManager.File.Res.sfxVol * 0.05f;
             }
-            if (DualityApp.Keyboard.KeyPressed(Key.Up) || DualityApp.Keyboard.KeyPressed(Key.W))
+            if (DualityApp.Keyboard.KeyPressed(Key.Up) || DualityApp.Keyboard.KeyPressed(Key.W) || Gamepads[0].ButtonHit(GamepadButton.DPadUp))
             {
                 rb.LinearVelocity = -Vector2.UnitY * Speed * /*Time.TimeMult*/ Time.DeltaTime;
                 wSound.Volume = GameManager.File.Res.sfxVol * 0.05f;
             }
-            if (DualityApp.Keyboard.KeyPressed(Key.Down) || DualityApp.Keyboard.KeyPressed(Key.S))
+            if (DualityApp.Keyboard.KeyPressed(Key.Down) || DualityApp.Keyboard.KeyPressed(Key.S) || Gamepads[0].ButtonHit(GamepadButton.DPadDown))
             {
                 rb.LinearVelocity = Vector2.UnitY * Speed * /*Time.TimeMult*/ Time.DeltaTime;
                 wSound.Volume = GameManager.File.Res.sfxVol * 0.05f;
@@ -110,7 +110,11 @@ namespace Duality_
                 DualityApp.Keyboard.KeyReleased(Key.Up) ||
                 DualityApp.Keyboard.KeyReleased(Key.W) ||
                 DualityApp.Keyboard.KeyReleased(Key.Down) ||
-                DualityApp.Keyboard.KeyReleased(Key.S))
+                DualityApp.Keyboard.KeyReleased(Key.S) ||
+                Gamepads[0].ButtonReleased(GamepadButton.DPadDown) ||
+                Gamepads[0].ButtonReleased(GamepadButton.DPadRight) ||
+                Gamepads[0].ButtonReleased(GamepadButton.DPadLeft) ||
+                Gamepads[0].ButtonReleased(GamepadButton.DPadUp))
             {
                 rb.LinearVelocity = Vector2.Zero;
                 wSound.Volume = 0;
